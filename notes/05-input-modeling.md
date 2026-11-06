@@ -35,12 +35,19 @@ flowchart TD
 假设到达过程为速率恒定的泊松过程，`N(t)` 表示长度为 `t` 的时间内的到达人数，那么
 
 
-> 计算式：`N(t)∼Poisson(λ t),,  P(N(t)=k)=e^{-λ t}((λ t)^k)/(k!).`
+```math
+N(t)\sim\operatorname{Poisson}(\lambda t),\qquad
+P(N(t)=k)=e^{-\lambda t}\frac{(\lambda t)^{k}}{k!}.
+```
 
 
 对应的相邻到达间隔 `T` 满足
 
-`T∼ Exp(λ), E(T)=(1)/(λ), Var(T)=(1)/(λ²).`
+
+```math
+T\sim\operatorname{Exp}(\lambda),\qquad E(T)=\frac{1}{\lambda},\quad\operatorname{Var}(T)=\frac{1}{\lambda^{2}}.
+```
+
 
 这里的 `λ` 是<strong>单位时间到达率</strong>；平均间隔是 `1/λ`。两者单位互为倒数，例如 `λ=0.4` 人/分钟，则平均间隔为 `2.5` 分钟。
 
@@ -48,18 +55,29 @@ flowchart TD
 
 观察到连续五名顾客在时刻 `0,2,3,6,10` 分钟到达。相邻到达间隔为
 
-`Δ=(2,1,3,4).`
+
+```math
+\Delta=(2,1,3,4).
+```
+
 
 指数分布速率的极大似然估计为
 
-`λ̂=(n)/(Σ_(i=1)^nΔ_i)=(4)/(10)=0.4 人/分钟.`
+
+```math
+\widehat\lambda=\frac{n}{\sum_{i=1}^{n}\Delta_{i}}=\frac{4}{10}=\boxed{0.4\,\mathrm{persons/min}}.
+```
+
 
 这里共有<strong>四个完整间隔</strong>，不是五个。把初始时刻 `0` 当作一个额外间隔会改变估计。
 
 若采用该指数模型，从 `U=0.8` 生成一个新间隔：
 
 
-> 计算式：`T=-(ln(1-U))/(λ̂) =-(ln0.2)/(0.4)≈4.024 分钟.`
+```math
+T=-\frac{\ln(1-U)}{\widehat\lambda}
+=-\frac{\ln0.2}{0.4}\approx\boxed{4.024\,\mathrm{min}}.
+```
 
 
 这个数值是一次随机实现；它不必等于平均间隔 `2.5` 分钟。
@@ -69,15 +87,21 @@ flowchart TD
 当只知道最小值 `a`、最可能值 `b`、最大值 `c`，且 `a<b<c` 时，可把三角分布作为一种透明、可解释的近似输入模型。其反函数生成式为
 
 
-| 条件 | 三角分布的反函数生成式 |
-| --- | --- |
-| `U < (b−a)/(c−a)` | `X = a + √(U(c−a)(b−a))` |
-| `U ≥ (b−a)/(c−a)` | `X = c − √((1−U)(c−a)(c−b))` |
+```math
+X=\begin{cases}
+a+\sqrt{U(c-a)(b-a)}, & U<\dfrac{b-a}{c-a},\\
+c-\sqrt{(1-U)(c-a)(c-b)}, & U\ge\dfrac{b-a}{c-a}.
+\end{cases}
+```
 
 
 例如最小 1 小时、最可能 2 小时、最大 5 小时，分段阈值为 `(2-1)/(5-1)=0.25`。若 `U=0.75`，
 
-`X=5-√((1-0.75)(5-1)(5-2))=5-√(3)≈3.268 小时.`
+
+```math
+X=5-\sqrt{(1-0.75)(5-1)(5-2)}=5-\sqrt{3}\approx\boxed{3.268\,\mathrm{h}}.
+```
+
 
 三角分布不等于实际工时的客观规律，结果仍应接受参数扰动和替代分布的敏感性分析。
 
