@@ -77,7 +77,12 @@ flowchart TD
 | `λ,μ` | 到达率与服务率（用于对应排队模型） |
 | `Ȳ,s²,r` | 多次重复的样本均值、方差、重复次数 |
 
+## 阅读与排版
+
+- [Markdown 与数学公式排版规范](docs/markdown-rendering.md)
+- [格式检查脚本](scripts/check_markdown.py)：执行 `python scripts/check_markdown.py` 可预先检查强调符号、数学围栏和公式括号。
+
 ## 使用说明
 
-为兼容不同 Markdown 预览器，公式采用 Unicode 数学符号与代码式计算表达，流程关系通过 Mermaid 展示。所有例题采用明确写出的假设，避免把某个具体数值示例当成普遍结论。运行 Python 示例仅需 Python 3.10 或更高版本，不依赖第三方库。
+为兼容不同 Markdown 预览器，较短计算式采用 Unicode 数学符号与代码式表达，正式推导采用 GitHub 原生的 `math` 公式块，流程关系通过 Mermaid 展示。所有例题采用明确写出的假设，避免把某个具体数值示例当成普遍结论。运行 Python 示例仅需 Python 3.10 或更高版本，不依赖第三方库。
 
