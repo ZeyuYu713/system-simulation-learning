@@ -2,10 +2,13 @@
 
 以**概念理解、数学推导、事件计算、模型实现和统计分析**为主线，系统整理仿真的核心知识。每个主题尽量包含定义、公式、可计算的例子和常见错误，适合从基础逐步学习，也可作为随时查阅的知识手册。
 
+> **重点专题｜手工离散事件仿真**：从四个零件、M1→运输→M2 的串联加工题出发，逐时刻填写 TNOW/FEL、画机器时间线与队长阶梯图，并区分 $t=10$ 截面与全部完工。**[进入零件加工专题](manual-event-simulation/README.md)**。
+
 ## 学习地图
 
 | 模块 | 知识重点 | 学习资料 |
 | --- | --- | --- |
+| **重点专题：零件加工事件调度** | 四零件两机串联、单机五零件截尾、完整事件表、时间平均与 10 道解析题 | **[专题主页](manual-event-simulation/README.md)** · [串联完整推演](manual-event-simulation/01-tandem-four-parts.md) · [时间线](assets/tandem-parts-timeline.svg) |
 | 01 基础与随机数 | 系统、实体、状态、事件；线性同余法；均匀性与独立性检验；随机变量生成 | [完整笔记](notes/01-random-numbers.md) |
 | 02 离散事件与排队 | 未来事件表、事件推进、FCFS、双并行服务台、M/M/1 | [完整笔记](notes/02-discrete-event-queue.md) |
 | 03 项目工序与 Arena | 工序先后关系、并行与汇合、资源约束、Arena 建模流程、验证 | [完整笔记](notes/03-arena-project-process.md) |
