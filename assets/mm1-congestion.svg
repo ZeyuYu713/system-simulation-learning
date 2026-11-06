@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" role="img" aria-labelledby="title desc">
+  <title id="title">M/M/1 利用率与平均排队延迟</title>
+  <desc id="desc">横轴利用率 rho 从 0 到 0.95，纵轴为归一化排队时间 mu Wq。曲线在 rho 趋近 1 时快速上升。</desc>
+  <rect x="0" y="0" width="760" height="480" fill="#f8fbfc" rx="18"/>
+  <text x="42" y="40" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#17324c">接近满载时，等待不是线性增长</text>
+  <text x="42" y="65" font-family="Arial, sans-serif" font-size="14" fill="#527083">M/M/1 稳态模型 · μWq = ρ / (1 − ρ)</text>
+  <rect x="80" y="100" width="600" height="280" fill="#ffffff" stroke="#d6e4eb" rx="4"/>
+  <g stroke="#e4edf1" stroke-width="1">
+    <line x1="80" y1="100" x2="680" y2="100"/>
+    <line x1="80" y1="170" x2="680" y2="170"/>
+    <line x1="80" y1="240" x2="680" y2="240"/>
+    <line x1="80" y1="310" x2="680" y2="310"/>
+    <line x1="80" y1="380" x2="680" y2="380"/>
+    <line x1="200" y1="100" x2="200" y2="380"/>
+    <line x1="320" y1="100" x2="320" y2="380"/>
+    <line x1="440" y1="100" x2="440" y2="380"/>
+    <line x1="560" y1="100" x2="560" y2="380"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#4c6476">
+    <text x="66" y="385" text-anchor="end">0</text>
+    <text x="66" y="315" text-anchor="end">5</text>
+    <text x="66" y="245" text-anchor="end">10</text>
+    <text x="66" y="175" text-anchor="end">15</text>
+    <text x="66" y="105" text-anchor="end">20</text>
+    <text x="80" y="401" text-anchor="middle">0</text>
+    <text x="200" y="401" text-anchor="middle">0.2</text>
+    <text x="320" y="401" text-anchor="middle">0.4</text>
+    <text x="440" y="401" text-anchor="middle">0.6</text>
+    <text x="560" y="401" text-anchor="middle">0.8</text>
+    <text x="620" y="401" text-anchor="middle">0.9</text>
+    <text x="650" y="401" text-anchor="middle">0.95</text>
+  </g>
+  <line x1="80" y1="380" x2="685" y2="380" stroke="#61798a" stroke-width="1.8"/>
+  <line x1="80" y1="385" x2="80" y2="95" stroke="#61798a" stroke-width="1.8"/>
+  <line x1="560" y1="100" x2="560" y2="380" stroke="#e7a15b" stroke-width="1.4" stroke-dasharray="6 6"/>
+  <polyline fill="none" stroke="#0b938a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+    points="80,380 110,379.3 140,378.4 170,377.5 200,376.5 230,375.3 260,374 290,372.5 320,370.7 350,368.5 380,366 410,362.9 440,359 470,354 500,347.3 530,338 560,324 575,314 590,300.7 605,282 620,254 626,238.4 632,219 638,194 644,160.7 650,114"/>
+  <g fill="#0b938a" stroke="#ffffff" stroke-width="2.5">
+    <circle cx="560" cy="324" r="6"/>
+    <circle cx="620" cy="254" r="6"/>
+    <circle cx="650" cy="114" r="6"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#17645e" font-weight="700">
+    <text x="548" y="302" text-anchor="end">ρ=0.8 → 4</text>
+    <text x="608" y="233" text-anchor="end">ρ=0.9 → 9</text>
+    <text x="626" y="111" text-anchor="end">19</text>
+  </g>
+  <text x="380" y="436" font-family="Arial, sans-serif" font-size="15" fill="#26465b" text-anchor="middle">服务台利用率 ρ = λ / μ</text>
+  <text x="22" y="243" font-family="Arial, sans-serif" font-size="15" fill="#26465b" text-anchor="middle" transform="rotate(-90 22 243)">归一化等待时间 μWq</text>
+  <text x="380" y="464" font-family="Arial, sans-serif" font-size="12" fill="#6b7e89" text-anchor="middle">只适用于假设成立且 ρ &lt; 1 的 M/M/1 稳态系统</text>
+</svg>
