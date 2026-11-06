@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 530" role="img" aria-labelledby="title desc">
+  <title id="title">蒙特卡洛圆周率估计的几何原理</title>
+  <desc id="desc">单位正方形中绘制四分之一单位圆，展示圆内外的随机样本点及其面积概率关系。</desc>
+  <rect x="0" y="0" width="860" height="530" fill="#f8fbfc" rx="18"/>
+  <text x="36" y="37" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#17324c">随机点落入圆内的比例 ≈ 面积比例</text>
+  <text x="36" y="59" font-family="Arial, sans-serif" font-size="14" fill="#527083">在 [0,1] × [0,1] 中均匀抽样</text>
+  <rect x="100" y="70" width="400" height="400" fill="#ffffff" stroke="#8299a5" stroke-width="2"/>
+  <path d="M100 470 L500 470 A400 400 0 0 0 100 70 Z" fill="#d8f4ef" stroke="#0b938a" stroke-width="3"/>
+  <g stroke="#d2e3e9" stroke-width="1" stroke-dasharray="4 5">
+    <line x1="200" y1="70" x2="200" y2="470"/>
+    <line x1="300" y1="70" x2="300" y2="470"/>
+    <line x1="400" y1="70" x2="400" y2="470"/>
+    <line x1="100" y1="170" x2="500" y2="170"/>
+    <line x1="100" y1="270" x2="500" y2="270"/>
+    <line x1="100" y1="370" x2="500" y2="370"/>
+  </g>
+  <g fill="#0b938a" stroke="#ffffff" stroke-width="2.2">
+    <circle cx="180" cy="350" r="7"/>
+    <circle cx="300" cy="270" r="7"/>
+    <circle cx="420" cy="350" r="7"/>
+    <circle cx="140" cy="110" r="7"/>
+    <circle cx="240" cy="310" r="7"/>
+    <circle cx="340" cy="330" r="7"/>
+    <circle cx="460" cy="430" r="7"/>
+  </g>
+  <g fill="#e58c51" stroke="#ffffff" stroke-width="2.2">
+    <circle cx="460" cy="110" r="7"/>
+    <circle cx="420" cy="190" r="7"/>
+    <circle cx="340" cy="110" r="7"/>
+    <circle cx="480" cy="270" r="7"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#4c6476">
+    <text x="100" y="494" text-anchor="middle">0</text>
+    <text x="500" y="494" text-anchor="middle">1</text>
+    <text x="82" y="475" text-anchor="end">0</text>
+    <text x="82" y="75" text-anchor="end">1</text>
+    <text x="300" y="515" text-anchor="middle">横坐标 U</text>
+    <text x="42" y="270" text-anchor="middle" transform="rotate(-90 42 270)">纵坐标 V</text>
+  </g>
+  <rect x="555" y="100" width="265" height="330" rx="16" fill="#ffffff" stroke="#d8e6eb"/>
+  <text x="583" y="143" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#17324c">判断规则</text>
+  <circle cx="586" cy="180" r="7" fill="#0b938a"/>
+  <text x="604" y="185" font-family="Arial, sans-serif" font-size="14" fill="#365267">U² + V² ≤ 1：圆内</text>
+  <circle cx="586" cy="215" r="7" fill="#e58c51"/>
+  <text x="604" y="220" font-family="Arial, sans-serif" font-size="14" fill="#365267">U² + V² &gt; 1：圆外</text>
+  <line x1="582" y1="245" x2="789" y2="245" stroke="#e3ecef"/>
+  <text x="583" y="283" font-family="Arial, sans-serif" font-size="15" fill="#3f6074">理论落入概率</text>
+  <text x="583" y="318" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#0b938a">p = π / 4</text>
+  <text x="583" y="360" font-family="Arial, sans-serif" font-size="15" fill="#3f6074">模拟估计</text>
+  <text x="583" y="394" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#0b938a">π ≈ 4 × k / n</text>
+  <text x="430" y="516" font-family="Arial, sans-serif" font-size="12" fill="#6b7e89" text-anchor="middle">散点仅用于展示判断方法，不代表统计实验的实际样本</text>
+</svg>
