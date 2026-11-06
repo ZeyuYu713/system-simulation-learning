@@ -10,8 +10,11 @@
 | 02 离散事件与排队 | 未来事件表、事件推进、FCFS、双并行服务台、M/M/1 | [完整笔记](notes/02-discrete-event-queue.md) |
 | 03 项目工序与 Arena | 工序先后关系、并行与汇合、资源约束、Arena 建模流程、验证 | [完整笔记](notes/03-arena-project-process.md) |
 | 04 输出分析与实验设计 | 终止型与稳态仿真、预热期、批均值、置信区间、共同随机数、方差缩减 | [完整笔记](notes/04-output-analysis.md) |
-| 05 练习与解析 | 随机数、分布变换、排队手算、统计估计、并行工序与方案比较 | [基础题 1–9](exercises/01-core-exercises.md) · [进阶题 10–18](exercises/02-advanced-exercises.md) |
-| 06 可运行示例 | 双服务台共享队列、M1 优先、离散事件推进、等待时间与利用率 | [Python 示例](examples/m1_priority_queue.py) |
+| 05 输入建模 | 观测数据、泊松到达、指数间隔、三角分布、拟合与敏感性分析 | [完整笔记](notes/05-input-modeling.md) |
+| 06 排队理论 | Little 定律、M/M/1、M/M/c、Erlang C、拥塞与稳定条件 | [完整笔记](notes/06-queueing-theory.md) · [拥塞曲线](assets/mm1-congestion.svg) |
+| 07 蒙特卡洛 | 随机抽样、面积估计、标准误、库存成本与共同随机数 | [完整笔记](notes/07-monte-carlo.md) · [几何示意图](assets/monte-carlo-circle.svg) |
+| 08 练习与解析 | 30 道题，覆盖随机数、事件推进、统计输出、输入建模、排队论与蒙特卡洛 | [基础题 1–9](exercises/01-core-exercises.md) · [进阶题 10–18](exercises/02-advanced-exercises.md) · [专题题 19–30](exercises/03-input-queue-montecarlo.md) |
+| 09 可运行示例 | 双服务台事件调度；库存蒙特卡洛与精确期望核验 | [双服务台 Python](examples/m1_priority_queue.py) · [库存蒙特卡洛 Python](examples/monte_carlo_inventory.py) |
 
 ## 核心流程
 
@@ -33,6 +36,16 @@ flowchart TD
 4. **如何判断模型正确？** 用手算小样例、极端情况和守恒关系验证。
 5. **结果有多可靠？** 区分单次运行与独立重复，报告估计误差与适用条件。
 
+## 图解两个关键现象
+
+**高利用率为什么不等于低成本？** 在 $M/M/1$ 的模型条件下，$\rho$ 越接近 1，平均排队时间以非线性方式增大。
+
+![M/M/1 利用率与等待时间](assets/mm1-congestion.svg)
+
+**随机抽样为什么能估计面积？** 在单位正方形中反复抽点，落入四分之一圆的比例趋近 $\pi/4$。
+
+![蒙特卡洛估计圆周率示意](assets/monte-carlo-circle.svg)
+
 ## 建议学习顺序
 
 **第一阶段：随机输入。** 从 $U(0,1)$、LCG、卡方与 KS 检验开始，再用反函数法和 Box–Muller 生成目标随机变量。
@@ -43,7 +56,11 @@ flowchart TD
 
 **第四阶段：输出分析。** 比较终止型和稳态实验，学习预热期、独立重复、置信区间、批均值与方差缩减。
 
-**第五阶段：综合练习。** 每道题先独立完成，再对照“题目—标准答案—完整解析”；对模型题重点核查假设和事件处理顺序。
+**第五阶段：随机输入与排队论。** 从数据构造输入分布，再学习 $M/M/1$、$M/M/c$ 和 Little 定律，观察拥塞对性能的影响。
+
+**第六阶段：蒙特卡洛与方案比较。** 用随机抽样估计概率和成本，并通过精确小样例核验程序。
+
+**第七阶段：综合练习。** 每道题先独立完成，再对照“题目—标准答案—完整解析”；对模型题重点核查假设、单位和事件处理顺序。
 
 ## 记号速查
 
