@@ -13,7 +13,7 @@
 | ③ | [四零件串联完整推演](01-tandem-four-parts.md) | 两道加工与运输如何决定等待、开始和完成时刻？ |
 | ④ | [统计量、窗口与变式](04-statistics-and-variants.md) | 为什么平均队长要算面积？未完工时哪些指标能计算？ |
 | ⑤ | [单机五零件截尾](02-single-machine-five-parts.md) | 仿真停止但仍有实体排队或加工，分母怎么办？ |
-| ⑥ | [10 道习题及解析](exercises.md) | 不看原题能否独立写出事件表和统计结果？ |
+| ⑥ | [14 道习题及解析](exercises.md) | 不看原题能否独立写出事件表和统计结果？ |
 
 ## 两道核心例题
 
@@ -59,6 +59,6 @@ flowchart TD
 - [四零件串联流程与甘特时间线](../assets/tandem-parts-timeline.svg)
 - [双队列长度随时间变化图](../assets/tandem-queue-length.svg)
 - [Python 事件调度校验程序](../examples/tandem_parts_event_simulation.py)
-- [10 道专题题目与完整答案](exercises.md)
+- [14 道专题题目与完整答案](exercises.md)
 
 所有图表均按事件规则独立绘制，关键指标可通过手工推演和程序相互复核。
