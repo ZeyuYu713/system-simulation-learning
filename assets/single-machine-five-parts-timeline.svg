@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 540" role="img" aria-labelledby="title desc">
+  <title id="title">五个零件的单机加工与排队时间线</title>
+  <desc id="desc">横轴为时刻0到约22，纵向为五个零件。零件1在0至4.58加工；零件2在6.84至9.80加工；零件3在9.24至9.80等待，在9.80至15.66加工；零件4从11.94等到15.66，再加工至18.87；零件5从14.53等到18.87，再加工至21.98。时刻15的红色虚线表示仿真终止，右侧为未执行的假设继续运行，仅作对照。</desc>
+  <rect width="1080" height="540" rx="18" fill="#f8fafc" />
+  <text x="48" y="46" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" fill="#15334b">五件零件的加工与等待：为什么截止时只完成两件</text>
+  <text x="48" y="75" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#587187">蓝色是机器加工，黄色是 FIFO 队列等待；灰色背景内的安排发生在原题截止之后。</text>
+  <rect x="674" y="112" width="320" height="351" rx="9" fill="#eef2f6" />
+  <text x="835" y="132" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#73879a">仅用于核对的未来计划</text>
+  <g stroke="#dce6ed" stroke-width="1">
+    <line x1="164" y1="114" x2="164" y2="467" />
+    <line x1="320" y1="114" x2="320" y2="467" />
+    <line x1="396.6" y1="114" x2="396.6" y2="467" />
+    <line x1="497.2" y1="114" x2="497.2" y2="467" />
+    <line x1="570" y1="114" x2="570" y2="467" />
+    <line x1="805.6" y1="114" x2="805.6" y2="467" />
+    <line x1="911.3" y1="114" x2="911.3" y2="467" />
+  </g>
+  <g fill="#71869a" font-family="Arial, sans-serif" font-size="13" text-anchor="middle">
+    <text x="164" y="108">0</text>
+    <text x="320" y="108">4.58</text>
+    <text x="396.6" y="108">6.84</text>
+    <text x="497.2" y="108">9.80</text>
+    <text x="570" y="108">11.94</text>
+    <text x="805.6" y="108">18.87</text>
+    <text x="911.3" y="108">21.98</text>
+  </g>
+  <g fill="#ffffff" stroke="#e1e9f0" stroke-width="1">
+    <rect x="164" y="156" width="747.3" height="37" rx="5" />
+    <rect x="164" y="218" width="747.3" height="37" rx="5" />
+    <rect x="164" y="280" width="747.3" height="37" rx="5" />
+    <rect x="164" y="342" width="747.3" height="37" rx="5" />
+    <rect x="164" y="404" width="747.3" height="37" rx="5" />
+  </g>
+  <g fill="#244257" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="700">
+    <text x="61" y="183">零件 1</text>
+    <text x="61" y="245">零件 2</text>
+    <text x="61" y="307">零件 3</text>
+    <text x="61" y="369">零件 4</text>
+    <text x="61" y="431">零件 5</text>
+  </g>
+  <!-- 横轴比例：每个时间单位34px，起点x=164。 -->
+  <g stroke="#ffffff" stroke-width="1.5">
+    <rect x="164" y="160" width="155.72" height="29" rx="4" fill="#3879d9" />
+    <rect x="396.56" y="222" width="100.64" height="29" rx="4" fill="#3879d9" />
+    <rect x="478.16" y="284" width="19.04" height="29" fill="#d89a30" />
+    <rect x="497.2" y="284" width="176.8" height="29" rx="3" fill="#3879d9" />
+    <rect x="674" y="284" width="22.44" height="29" rx="3" fill="#8fb6ed" />
+    <rect x="569.96" y="346" width="104.04" height="29" rx="3" fill="#d89a30" />
+    <rect x="674" y="346" width="22.44" height="29" fill="#efd59e" />
+    <rect x="696.44" y="346" width="109.14" height="29" rx="3" fill="#8fb6ed" />
+    <rect x="658.02" y="408" width="15.98" height="29" fill="#d89a30" />
+    <rect x="674" y="408" width="131.58" height="29" fill="#efd59e" />
+    <rect x="805.58" y="408" width="105.74" height="29" rx="3" fill="#8fb6ed" />
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" text-anchor="middle" font-size="13" font-weight="700">
+    <text x="242" y="180" fill="#fff">加工 4.58</text>
+    <text x="446.9" y="242" fill="#fff">加工 2.96</text>
+    <text x="585.6" y="304" fill="#fff">已加工 5.20</text>
+    <text x="621.98" y="366" fill="#fff">已等 3.06</text>
+    <text x="751" y="366" fill="#365c86">未来加工</text>
+    <text x="746" y="428" fill="#826133">未来等待</text>
+    <text x="858.5" y="428" fill="#365c86">未来加工</text>
+  </g>
+  <line x1="674" y1="110" x2="674" y2="456" stroke="#d4494c" stroke-width="3" stroke-dasharray="8 6" />
+  <rect x="622" y="83" width="104" height="24" rx="8" fill="#fff1f0" stroke="#e7aaaa" />
+  <text x="674" y="100" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#b23a3e">截止 T = 15</text>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="#355366" font-size="14">
+    <rect x="67" y="473" width="17" height="17" rx="3" fill="#3879d9" />
+    <text x="93" y="487">已经发生的加工</text>
+    <rect x="270" y="473" width="17" height="17" rx="3" fill="#d89a30" />
+    <text x="296" y="487">已经发生的排队</text>
+    <rect x="472" y="473" width="17" height="17" rx="3" fill="#8fb6ed" />
+    <text x="498" y="487">截止后的计划加工</text>
+    <rect x="692" y="473" width="17" height="17" rx="3" fill="#efd59e" />
+    <text x="718" y="487">截止后的计划等待</text>
+  </g>
+  <text x="67" y="518" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#627c90">T = 15 时：零件 1、2 已完工；3 正在 M1；4、5 在队列。右侧没有执行完工事件。</text>
+</svg>
