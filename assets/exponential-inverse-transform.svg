@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 480" role="img" aria-labelledby="title desc">
+  <title id="title">指数分布反函数法的几何说明</title>
+  <desc id="desc">参数为2的指数分布累计分布函数。横向虚线从累计概率0.8出发，与曲线交于x约0.8047，再向下投影至横轴。</desc>
+  <rect width="1080" height="480" rx="24" fill="#f8fafc"/>
+  <rect x="24" y="24" width="1032" height="432" rx="18" fill="#ffffff" stroke="#e2e8f0"/>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="#0f172a">
+    <text x="56" y="72" font-size="24" font-weight="700">反函数法：从均匀概率读出指数分布样本</text>
+    <text x="56" y="105" font-size="15" fill="#64748b">速率 λ = 2　　F(x) = 1 − exp(−2x)　　给定 U = 0.8</text>
+  </g>
+
+  <!-- Coordinates: x=155+310t, y=386−260F(t). -->
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="155" y1="321" x2="805" y2="321"/>
+    <line x1="155" y1="256" x2="805" y2="256"/>
+    <line x1="155" y1="191" x2="805" y2="191"/>
+    <line x1="155" y1="126" x2="805" y2="126"/>
+    <line x1="310" y1="126" x2="310" y2="386"/>
+    <line x1="465" y1="126" x2="465" y2="386"/>
+    <line x1="620" y1="126" x2="620" y2="386"/>
+    <line x1="775" y1="126" x2="775" y2="386"/>
+  </g>
+
+  <path d="M155 126 V386 H805" fill="none" stroke="#475569" stroke-width="2.2" stroke-linecap="round"/>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="#64748b" font-size="14" text-anchor="end">
+    <text x="144" y="391">0</text>
+    <text x="144" y="326">0.25</text>
+    <text x="144" y="261">0.50</text>
+    <text x="144" y="196">0.75</text>
+    <text x="144" y="131">1.00</text>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="#64748b" font-size="14" text-anchor="middle">
+    <text x="155" y="410">0</text>
+    <text x="310" y="410">0.5</text>
+    <text x="465" y="410">1.0</text>
+    <text x="620" y="410">1.5</text>
+    <text x="775" y="410">2.0</text>
+    <text x="813" y="391" text-anchor="start">x</text>
+    <text x="120" y="138" text-anchor="end">F(x)</text>
+  </g>
+
+  <!-- 17-point polyline sampled from F(x)=1−exp(−2x), with x step=0.125. -->
+  <polyline fill="none" stroke="#2563eb" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"
+    points="155,386 193.75,328.49 232.5,283.69 271.25,248.80 310,221.65 348.75,200.50 387.5,184.03 426.25,171.21 465,161.19 503.75,153.41 542.5,147.35 581.25,142.61 620,138.94 658.75,136.08 697.5,133.85 736.25,132.12 775,130.76"/>
+
+  <!-- At U=0.8, x=−ln(0.2)/2=0.804719, giving position x=404.46. -->
+  <line x1="155" y1="178" x2="404.46" y2="178" stroke="#e11d48" stroke-width="2.7" stroke-dasharray="8 6"/>
+  <line x1="404.46" y1="178" x2="404.46" y2="386" stroke="#e11d48" stroke-width="2.7" stroke-dasharray="8 6"/>
+  <circle cx="404.46" cy="178" r="8" fill="#e11d48" stroke="white" stroke-width="3"/>
+  <circle cx="155" cy="178" r="5" fill="#e11d48"/>
+  <circle cx="404.46" cy="386" r="5" fill="#e11d48"/>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="#be123c" font-size="16" font-weight="700">
+    <text x="91" y="183" text-anchor="end">U = 0.8</text>
+    <text x="404.46" y="437" text-anchor="middle">x ≈ 0.8047</text>
+  </g>
+
+  <rect x="831" y="149" width="187" height="206" rx="12" fill="#f1f5f9" stroke="#e2e8f0"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#334155">
+    <text x="852" y="187" font-weight="700">读取顺序</text>
+    <text x="852" y="225">① 取 U = 0.8</text>
+    <text x="852" y="267">② 向右找到曲线</text>
+    <text x="852" y="309">③ 向下读取 x</text>
+  </g>
+</svg>
