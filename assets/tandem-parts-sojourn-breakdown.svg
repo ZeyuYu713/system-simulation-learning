@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 490" role="img" aria-labelledby="title desc">
+  <title id="title">四件零件的系统逗留时间分解</title>
+  <desc id="desc">从0到24的时间轴。零件1在0至5接受M1加工，5至6运输，6至9接受M2加工；零件2在3至5等待M1，5至10加工M1，10至11运输，11至15加工M2；零件3在4至10等待M1，10至13加工M1，13至14运输，14至15等待M2，15至20加工M2；零件4在6至13等待M1，13至14加工M1，14至15运输，15至20等待M2，20至24加工M2。</desc>
+  <rect width="1080" height="490" rx="18" fill="#f8fafc" />
+  <text x="48" y="43" font-family="Arial, Microsoft YaHei, sans-serif" font-size="26" font-weight="700" fill="#15334b">每件零件在系统内经历了哪些时间</text>
+  <text x="48" y="71" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#587187">同一行按时间分解为：M1 等待 → M1 加工 → 运输 → M2 等待 → M2 加工</text>
+  <text x="180" y="105" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" fill="#587187">绝对仿真时刻</text>
+  <g stroke="#dce6eb" stroke-width="1">
+    <line x1="180" y1="126" x2="180" y2="405" />
+    <line x1="270" y1="126" x2="270" y2="405" />
+    <line x1="330" y1="126" x2="330" y2="405" />
+    <line x1="360" y1="126" x2="360" y2="405" />
+    <line x1="480" y1="126" x2="480" y2="405" />
+    <line x1="600" y1="126" x2="600" y2="405" />
+    <line x1="630" y1="126" x2="630" y2="405" />
+    <line x1="780" y1="126" x2="780" y2="405" />
+    <line x1="900" y1="126" x2="900" y2="405" />
+  </g>
+  <g fill="#496579" font-family="Arial, sans-serif" font-size="13" text-anchor="middle">
+    <text x="180" y="120">0</text>
+    <text x="270" y="120">3</text>
+    <text x="330" y="120">5</text>
+    <text x="360" y="120">6</text>
+    <text x="480" y="120">10</text>
+    <text x="600" y="120">14</text>
+    <text x="630" y="120">15</text>
+    <text x="780" y="120">20</text>
+    <text x="900" y="120">24</text>
+  </g>
+  <g fill="#ffffff" stroke="#e0e9ee" stroke-width="1">
+    <rect x="180" y="153" width="720" height="40" rx="5" />
+    <rect x="180" y="220" width="720" height="40" rx="5" />
+    <rect x="180" y="287" width="720" height="40" rx="5" />
+    <rect x="180" y="354" width="720" height="40" rx="5" />
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#244257">
+    <text x="64" y="180">零件 1</text>
+    <text x="64" y="247">零件 2</text>
+    <text x="64" y="314">零件 3</text>
+    <text x="64" y="381">零件 4</text>
+  </g>
+  <g stroke="#ffffff" stroke-width="2">
+    <rect x="180" y="157" width="150" height="32" rx="3" fill="#3879d9" />
+    <rect x="330" y="157" width="30" height="32" rx="2" fill="#64748b" />
+    <rect x="360" y="157" width="90" height="32" rx="3" fill="#0e9589" />
+    <rect x="270" y="224" width="60" height="32" rx="3" fill="#d89a30" />
+    <rect x="330" y="224" width="150" height="32" rx="3" fill="#3879d9" />
+    <rect x="480" y="224" width="30" height="32" rx="2" fill="#64748b" />
+    <rect x="510" y="224" width="120" height="32" rx="3" fill="#0e9589" />
+    <rect x="300" y="291" width="180" height="32" rx="3" fill="#d89a30" />
+    <rect x="480" y="291" width="90" height="32" rx="3" fill="#3879d9" />
+    <rect x="570" y="291" width="30" height="32" rx="2" fill="#64748b" />
+    <rect x="600" y="291" width="30" height="32" rx="2" fill="#e57598" />
+    <rect x="630" y="291" width="150" height="32" rx="3" fill="#0e9589" />
+    <rect x="360" y="358" width="210" height="32" rx="3" fill="#d89a30" />
+    <rect x="570" y="358" width="30" height="32" rx="2" fill="#3879d9" />
+    <rect x="600" y="358" width="30" height="32" rx="2" fill="#64748b" />
+    <rect x="630" y="358" width="150" height="32" rx="3" fill="#e57598" />
+    <rect x="780" y="358" width="120" height="32" rx="3" fill="#0e9589" />
+  </g>
+  <g fill="#ffffff" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" text-anchor="middle" font-weight="700">
+    <text x="255" y="178">M1 · 5</text>
+    <text x="405" y="178">M2 · 3</text>
+    <text x="300" y="245">等 2</text>
+    <text x="405" y="245">M1 · 5</text>
+    <text x="570" y="245">M2 · 4</text>
+    <text x="390" y="312">等待 M1 · 6</text>
+    <text x="525" y="312">M1 · 3</text>
+    <text x="705" y="312">M2 · 5</text>
+    <text x="465" y="379">等待 M1 · 7</text>
+    <text x="705" y="379">等待 M2 · 5</text>
+    <text x="840" y="379">M2 · 4</text>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="#244257" font-size="15">
+    <text x="920" y="180">逗留 9</text>
+    <text x="920" y="247">逗留 12</text>
+    <text x="920" y="314">逗留 16</text>
+    <text x="920" y="381">逗留 18</text>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="#355366" font-size="14">
+    <rect x="71" y="430" width="16" height="16" rx="3" fill="#d89a30" />
+    <text x="95" y="443">M1 等待</text>
+    <rect x="215" y="430" width="16" height="16" rx="3" fill="#3879d9" />
+    <text x="239" y="443">M1 加工</text>
+    <rect x="365" y="430" width="16" height="16" rx="3" fill="#64748b" />
+    <text x="389" y="443">运输</text>
+    <rect x="470" y="430" width="16" height="16" rx="3" fill="#e57598" />
+    <text x="494" y="443">M2 等待</text>
+    <rect x="614" y="430" width="16" height="16" rx="3" fill="#0e9589" />
+    <text x="638" y="443">M2 加工</text>
+  </g>
+  <text x="71" y="470" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" fill="#718797">短色块未标字时，以图例和横轴刻度读取；空白表示该零件尚未到达或已经离开系统。</text>
+</svg>
