@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 500" role="img" aria-labelledby="title desc">
+  <title id="title">单机五零件在截止时刻15之前的排队人数阶梯图</title>
+  <desc id="desc">队长在0至9.24为0，9.24至9.80为1，9.80至11.94为0，11.94至14.53为1，14.53至15为2。曲线下的非零面积为0.56、2.59、0.94，合计4.09；除以观察长度15，时间平均队长约0.2727。</desc>
+  <rect width="1080" height="500" rx="18" fill="#f8fafc" />
+  <text x="48" y="46" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" fill="#15334b">为什么截止时队长为 2，时间平均队长却只有 0.273</text>
+  <text x="48" y="75" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#587187">队长只有在零件开始排队、离开队列时跳变；计算平均值要用下方阴影的时间面积。</text>
+  <g stroke="#dbe6ed" stroke-width="1">
+    <line x1="142" y1="190" x2="907" y2="190" />
+    <line x1="142" y1="280" x2="907" y2="280" />
+    <line x1="142" y1="370" x2="907" y2="370" />
+  </g>
+  <g fill="#698093" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15">
+    <text x="104" y="375">0</text>
+    <text x="104" y="285">1</text>
+    <text x="104" y="195">2</text>
+    <text x="72" y="146">等待队长 Q(t)</text>
+  </g>
+  <rect x="613.24" y="280" width="28.56" height="90" fill="#f5dba6" opacity="0.95" />
+  <rect x="750.94" y="280" width="132.09" height="90" fill="#f5dba6" opacity="0.95" />
+  <rect x="883.03" y="190" width="23.97" height="180" fill="#efb996" opacity="0.95" />
+  <path d="M142 370 H613.24 V280 H641.80 V370 H750.94 V280 H883.03 V190 H907" fill="none" stroke="#2c608a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <g fill="#2c608a">
+    <circle cx="613.24" cy="280" r="4.8" />
+    <circle cx="641.8" cy="370" r="4.8" />
+    <circle cx="750.94" cy="280" r="4.8" />
+    <circle cx="883.03" cy="190" r="4.8" />
+    <circle cx="907" cy="190" r="4.8" />
+  </g>
+  <g stroke="#adbeca" stroke-width="1.2" stroke-dasharray="4 4">
+    <line x1="613.24" y1="370" x2="613.24" y2="394" />
+    <line x1="641.8" y1="370" x2="641.8" y2="415" />
+    <line x1="750.94" y1="370" x2="750.94" y2="394" />
+    <line x1="883.03" y1="370" x2="883.03" y2="394" />
+    <line x1="907" y1="190" x2="907" y2="415" />
+  </g>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#516b80" text-anchor="middle">
+    <text x="142" y="398">0</text>
+    <text x="613.24" y="408">9.24</text>
+    <text x="641.8" y="428">9.80</text>
+    <text x="750.94" y="408">11.94</text>
+    <text x="883.03" y="408">14.53</text>
+    <text x="907" y="428">15</text>
+  </g>
+  <text x="960" y="386" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#516b80">仿真时刻</text>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#805a1e">
+    <path d="M628 276 L590 236" stroke="#bb8736" fill="none" stroke-width="1.3" />
+    <text x="510" y="231">面积 0.56</text>
+    <text x="793" y="326" text-anchor="middle">面积 2.59</text>
+    <path d="M894 242 L943 229" stroke="#b77a50" fill="none" stroke-width="1.3" />
+    <text x="945" y="226" fill="#96543c">面积 0.94</text>
+  </g>
+  <line x1="48" y1="443" x2="1032" y2="443" stroke="#dce6ed" />
+  <text x="60" y="470" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#15334b">总面积 = 0.56 + 2.59 + 0.94 = 4.09</text>
+  <text x="604" y="470" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#15334b">平均队长 = 4.09 ÷ 15 ≈ 0.2727</text>
+</svg>
