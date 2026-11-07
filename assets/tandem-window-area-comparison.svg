@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 454" role="img" aria-labelledby="title desc">
+  <title id="title">观察窗口与系统在制品时间面积</title>
+  <desc id="desc">双机串联四零件实例。截止时刻10，Q1、M1、运输、Q2、M2的面积依次为12、10、1、0、3，总面积26，平均在制品数2.60。截止时刻15，各状态面积为15、14、4、1、7，总面积41，平均2.73。截止时刻24，各状态面积为15、14、4、6、16，总面积55，平均2.29。横条长度代表零件乘时间的累计面积，并非瞬时零件数量。</desc>
+  <rect width="1080" height="454" rx="18" fill="#f8fafc" />
+  <text x="48" y="47" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" fill="#15334b">同一条轨迹，换一个截止时刻，统计面积就会改变</text>
+  <text x="48" y="78" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#587187">五种状态的时间面积之和 = 系统内零件数曲线下的面积；所有横条按同一比例绘制。</text>
+  <g stroke="#dfe8ef" stroke-width="1">
+    <line x1="196" y1="116" x2="196" y2="337" />
+    <line x1="306" y1="116" x2="306" y2="337" />
+    <line x1="416" y1="116" x2="416" y2="337" />
+    <line x1="526" y1="116" x2="526" y2="337" />
+    <line x1="636" y1="116" x2="636" y2="337" />
+    <line x1="746" y1="116" x2="746" y2="337" />
+    <line x1="856" y1="116" x2="856" y2="337" />
+  </g>
+  <g fill="#71869a" font-family="Arial, sans-serif" font-size="13" text-anchor="middle">
+    <text x="196" y="111">0</text>
+    <text x="306" y="111">10</text>
+    <text x="416" y="111">20</text>
+    <text x="526" y="111">30</text>
+    <text x="636" y="111">40</text>
+    <text x="746" y="111">50</text>
+    <text x="856" y="111">60</text>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="#244257">
+    <text x="49" y="159" font-weight="700" font-size="19">截止 10</text>
+    <text x="49" y="183" font-size="14" fill="#658094">平均 N = 2.60</text>
+    <text x="49" y="237" font-weight="700" font-size="19">截止 15</text>
+    <text x="49" y="261" font-size="14" fill="#658094">平均 N = 2.73</text>
+    <text x="49" y="315" font-weight="700" font-size="19">截止 24</text>
+    <text x="49" y="339" font-size="14" fill="#658094">平均 N = 2.29</text>
+  </g>
+  <g fill="#ffffff" stroke="#e0e9ee" stroke-width="1">
+    <rect x="196" y="136" width="660" height="34" rx="5" />
+    <rect x="196" y="214" width="660" height="34" rx="5" />
+    <rect x="196" y="292" width="660" height="34" rx="5" />
+  </g>
+  <!-- 截止10：12+10+1+0+3 = 26；比例11px/时间面积单位。 -->
+  <g stroke="#f8fafc" stroke-width="1.5">
+    <rect x="196" y="139" width="132" height="28" fill="#d89a30" />
+    <rect x="328" y="139" width="110" height="28" fill="#3879d9" />
+    <rect x="438" y="139" width="11" height="28" fill="#64748b" />
+    <rect x="449" y="139" width="33" height="28" fill="#0e9589" />
+    <!-- 截止15：15+14+4+1+7 = 41。 -->
+    <rect x="196" y="217" width="165" height="28" fill="#d89a30" />
+    <rect x="361" y="217" width="154" height="28" fill="#3879d9" />
+    <rect x="515" y="217" width="44" height="28" fill="#64748b" />
+    <rect x="559" y="217" width="11" height="28" fill="#e57598" />
+    <rect x="570" y="217" width="77" height="28" fill="#0e9589" />
+    <!-- 截止24：15+14+4+6+16 = 55。 -->
+    <rect x="196" y="295" width="165" height="28" fill="#d89a30" />
+    <rect x="361" y="295" width="154" height="28" fill="#3879d9" />
+    <rect x="515" y="295" width="44" height="28" fill="#64748b" />
+    <rect x="559" y="295" width="66" height="28" fill="#e57598" />
+    <rect x="625" y="295" width="176" height="28" fill="#0e9589" />
+  </g>
+  <g fill="#ffffff" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+    <text x="262" y="158">12</text>
+    <text x="383" y="158">10</text>
+    <text x="443.5" y="131" fill="#64748b">1</text>
+    <text x="278.5" y="236">15</text>
+    <text x="438" y="236">14</text>
+    <text x="537" y="236">4</text>
+    <text x="564.5" y="208" fill="#b64e75">1</text>
+    <text x="608.5" y="236">7</text>
+    <text x="278.5" y="314">15</text>
+    <text x="438" y="314">14</text>
+    <text x="537" y="314">4</text>
+    <text x="592" y="314">6</text>
+    <text x="713" y="314">16</text>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="#244257" font-size="16" font-weight="700">
+    <text x="494" y="160">总面积 26</text>
+    <text x="659" y="238">总面积 41</text>
+    <text x="813" y="316">总面积 55</text>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="#355366" font-size="15">
+    <rect x="71" y="367" width="17" height="17" rx="3" fill="#d89a30" />
+    <text x="97" y="381">Q1 排队</text>
+    <rect x="218" y="367" width="17" height="17" rx="3" fill="#3879d9" />
+    <text x="244" y="381">M1 加工</text>
+    <rect x="369" y="367" width="17" height="17" rx="3" fill="#64748b" />
+    <text x="395" y="381">运输</text>
+    <rect x="484" y="367" width="17" height="17" rx="3" fill="#e57598" />
+    <text x="510" y="381">Q2 排队</text>
+    <rect x="627" y="367" width="17" height="17" rx="3" fill="#0e9589" />
+    <text x="653" y="381">M2 加工</text>
+  </g>
+  <line x1="48" y1="403" x2="1032" y2="403" stroke="#dae5ec" />
+  <text x="71" y="430" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#587187">例：截止 15 的平均在制品数 = 总面积 41 ÷ 观察长度 15 ≈ 2.73。</text>
+  <text x="1031" y="430" text-anchor="end" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" fill="#718797">单位：零件 × 时间</text>
+</svg>
