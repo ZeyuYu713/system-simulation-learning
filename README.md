@@ -15,7 +15,8 @@
 | 专题：离散事件与排队 | 未来事件表、事件推进、FCFS、双并行服务台、M/M/1 | [原有专题笔记](notes/02-discrete-event-queue.md) |
 | 03 随机数的生成与检验（原课件第三讲） | 平方取中法、LCG及满周期、均值方差检验、卡方与 K–S 检验、游程、连贯性、扑克检验 | [完整笔记](notes/03-random-number-generation-testing.md) |
 | 专题：项目工序与 Arena | 工序先后关系、并行与汇合、资源约束、Arena 建模流程、验证 | [原有专题笔记](notes/03-arena-project-process.md) |
-| 04 输出分析与实验设计 | 终止型与稳态仿真、预热期、批均值、置信区间、共同随机数、方差缩减 | [完整笔记](notes/04-output-analysis.md) |
+| 04 随机变量的生成（原课件第四讲） | 逆变法、函数变换与 Box–Muller、近似法、卷积法、Gamma 的 GB/GS 取舍法、连续和离散经验分布抽样 | [完整笔记](notes/04-random-variate-generation.md) |
+| 专题：输出分析与实验设计 | 终止型与稳态仿真、预热期、批均值、置信区间、共同随机数、方差缩减 | [原有专题笔记](notes/04-output-analysis.md) |
 | 05 输入建模 | 观测数据、泊松到达、指数间隔、三角分布、拟合与敏感性分析 | [完整笔记](notes/05-input-modeling.md) |
 | 06 仿真输出分析（原课件第六讲） | 终态仿真、置信区间、规定精度、稳态处理、重复—删除法、批平均值法、三种方差衰减技术 | [完整笔记](notes/06-output-analysis.md) |
 | 专题：排队理论 | Little 定律、M/M/1、M/M/c、Erlang C、拥塞与稳定条件 | [原有专题笔记](notes/06-queueing-theory.md) · [拥塞曲线](assets/mm1-congestion.svg) |
