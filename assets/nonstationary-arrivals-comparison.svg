@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 540" role="img" aria-label="一天中分时段泊松到达预期数量与全程平均到达率的比较：0到2小时6人、2到4小时16人、4到6小时8人；固定全程平均预测每段均为10人">
+  <defs>
+    <style>
+      .title {font:700 29px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#14243a}
+      .subtitle {font:19px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#42556e}
+      .axis {font:19px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#2f4359}
+      .value {font:700 27px 'Segoe UI',Arial,sans-serif; fill:#173654}
+      .time {font:20px 'Segoe UI',Arial,sans-serif; fill:#2f4359}
+    </style>
+  </defs>
+  <rect width="1120" height="540" fill="#f8fafc"/>
+  <text x="64" y="65" class="title">全日平均到达率可能掩盖时段高峰</text>
+  <text x="64" y="103" class="subtitle">每个时段均为 2 小时；分段速率分别为 3、8、4 人/小时</text>
+
+  <line x1="115" y1="420" x2="1052" y2="420" stroke="#60748d" stroke-width="2"/>
+  <line x1="115" y1="125" x2="115" y2="420" stroke="#60748d" stroke-width="2"/>
+  <g stroke="#e0e8f0" stroke-width="1">
+    <line x1="115" y1="360" x2="1052" y2="360"/>
+    <line x1="115" y1="300" x2="1052" y2="300"/>
+    <line x1="115" y1="240" x2="1052" y2="240"/>
+    <line x1="115" y1="180" x2="1052" y2="180"/>
+  </g>
+  <g class="axis" text-anchor="end">
+    <text x="101" y="427">0</text>
+    <text x="101" y="367">4</text>
+    <text x="101" y="307">8</text>
+    <text x="101" y="247">12</text>
+    <text x="101" y="187">16</text>
+  </g>
+  <text x="122" y="150" class="axis">预期到达人数</text>
+
+  <!-- 15 screen pixels per expected arrival. 6, 16, 8 in successive 2h windows. -->
+  <rect x="214" y="330" width="184" height="90" rx="10" fill="#5697c6"/>
+  <rect x="496" y="180" width="184" height="240" rx="10" fill="#2779af"/>
+  <rect x="778" y="300" width="184" height="120" rx="10" fill="#5697c6"/>
+  <g class="value" text-anchor="middle">
+    <text x="306" y="315">6</text>
+    <text x="588" y="165">16</text>
+    <text x="870" y="342" style="fill:#ffffff">8</text>
+  </g>
+
+  <!-- Flat 5 arrivals/h times 2 hours = 10 expected arrivals per window. -->
+  <line x1="156" y1="270" x2="1018" y2="270" stroke="#d6813a" stroke-width="4" stroke-dasharray="13 10"/>
+  <rect x="687" y="221" width="326" height="37" rx="8" fill="#fff2df"/>
+  <text x="703" y="248" class="axis">固定平均速率：每段预期 10 人</text>
+
+  <g class="time" text-anchor="middle">
+    <text x="306" y="455">0–2 h</text>
+    <text x="588" y="455">2–4 h</text>
+    <text x="870" y="455">4–6 h</text>
+  </g>
+  <text x="64" y="512" class="subtitle">总量相同：6＋16＋8＝30 人。但高峰期使用固定速率会把预期到达量从 16 低估为 10。</text>
+</svg>
