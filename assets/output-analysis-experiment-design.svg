@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-label="终止型仿真使用独立重复，稳态仿真删除预热期后将长轨迹划分为批次的实验设计对比图">
+  <defs>
+    <style>
+      .title {font: 700 31px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#17243b}
+      .h {font:700 23px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#1c3650}
+      .label {font:19px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#304860}
+      .small {font:16px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif; fill:#455970}
+      .mono {font:17px 'Segoe UI',Arial,sans-serif; fill:#203c56}
+    </style>
+  </defs>
+  <rect width="1200" height="640" fill="#f7f9fc"/>
+  <text x="58" y="65" class="title">仿真输出分析：先确定统计样本是什么</text>
+  <rect x="54" y="101" width="531" height="455" rx="20" fill="#ffffff" stroke="#d7e0eb" stroke-width="2"/>
+  <rect x="614" y="101" width="531" height="455" rx="20" fill="#ffffff" stroke="#d7e0eb" stroke-width="2"/>
+
+  <text x="82" y="151" class="h">终止型：多个完整、独立的周期</text>
+  <text x="82" y="188" class="small">相同模型与初始条件；每次使用独立随机输入</text>
+  <g stroke="#e1e7ee" stroke-width="2">
+    <line x1="154" y1="241" x2="545" y2="241"/>
+    <line x1="154" y1="311" x2="545" y2="311"/>
+    <line x1="154" y1="381" x2="545" y2="381"/>
+    <line x1="154" y1="451" x2="545" y2="451"/>
+  </g>
+  <g>
+    <text x="82" y="251" class="label">重复 1</text><rect x="166" y="220" width="289" height="35" rx="7" fill="#4a85bc"/><text x="466" y="245" class="mono">Y₁</text>
+    <text x="82" y="321" class="label">重复 2</text><rect x="166" y="290" width="289" height="35" rx="7" fill="#4a85bc"/><text x="466" y="315" class="mono">Y₂</text>
+    <text x="82" y="391" class="label">重复 3</text><rect x="166" y="360" width="289" height="35" rx="7" fill="#4a85bc"/><text x="466" y="385" class="mono">Y₃</text>
+    <text x="82" y="461" class="label">重复 4</text><rect x="166" y="430" width="289" height="35" rx="7" fill="#4a85bc"/><text x="466" y="455" class="mono">Y₄</text>
+  </g>
+  <text x="167" y="500" class="small">每行汇总成一个 Y；用 Y₁、Y₂… 估计均值与误差</text>
+
+  <text x="643" y="151" class="h">稳态型：预热后分析长期行为</text>
+  <text x="643" y="188" class="small">示意为一条长轨迹；批均值并非天然独立</text>
+  <text x="643" y="250" class="label">模拟时间</text>
+  <rect x="647" y="278" width="114" height="81" rx="6" fill="#f8d7cc" stroke="#eaa992"/>
+  <rect x="764" y="278" width="85" height="81" rx="4" fill="#b9dfd3" stroke="#7cbca8"/>
+  <rect x="851" y="278" width="85" height="81" rx="4" fill="#a4d2c3" stroke="#7cbca8"/>
+  <rect x="938" y="278" width="85" height="81" rx="4" fill="#b9dfd3" stroke="#7cbca8"/>
+  <rect x="1025" y="278" width="86" height="81" rx="4" fill="#a4d2c3" stroke="#7cbca8"/>
+  <g text-anchor="middle" class="small">
+    <text x="704" y="310">预热期</text><text x="704" y="337">丢弃</text>
+    <text x="806" y="324">批 1</text><text x="893" y="324">批 2</text>
+    <text x="980" y="324">批 3</text><text x="1068" y="324">批 4</text>
+  </g>
+  <g class="mono" text-anchor="middle">
+    <text x="647" y="386">0</text><text x="761" y="386">W</text><text x="1111" y="386">T</text>
+  </g>
+  <path d="M647 408H1111" stroke="#a0acb8" stroke-width="2"/>
+  <path d="M761 401V415 M1111 401V415" stroke="#7a8997" stroke-width="2"/>
+  <text x="699" y="453" class="small">先处理初始化偏差，再估计均值与方差</text>
+  <text x="667" y="500" class="small">若批次相关性明显，应增大批长或采用独立长重复</text>
+
+  <rect x="54" y="576" width="1091" height="45" rx="10" fill="#eaf1f8"/>
+  <text x="73" y="605" class="label">共同原则：不能把同一运行中相互依赖的顾客记录，直接当作独立重复样本。</text>
+</svg>
