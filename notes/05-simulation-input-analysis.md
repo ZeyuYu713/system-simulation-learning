@@ -1,6 +1,6 @@
 # 第五讲｜仿真输入分析
 
-[返回学习目录](../README.md) · [上一讲：随机变量的生成](04-random-variate-generation.md) · [相关专题：输入建模](05-input-modeling.md)
+[返回学习目录](../README.md) · [上一讲：随机变量的生成](04-random-variate-generation.md) · [下一讲：仿真输出分析](06-output-analysis.md) · [相关专题：输入建模](05-input-modeling.md)
 
 本讲对应课程课件 `simulation5_v3.pdf`（31 页）。前两讲分别讨论如何得到合格的均匀随机数、如何把均匀数变换成指定分布；第五讲则要回答更早、也更实际的问题：<strong>仿真模型究竟应当使用哪一种输入分布？其中的参数应当取多少？</strong>
 
