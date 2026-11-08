@@ -1,6 +1,6 @@
 # 第七讲｜仿真模型的验证与确认
 
-[返回学习目录](../README.md) · [上一讲：仿真输出分析](06-output-analysis.md) · [相关专题练习](../exercises/03-input-queue-montecarlo.md)
+[返回学习目录](../README.md) · [上一讲：仿真输出分析](06-output-analysis.md) · [下一讲：仿真优化基础](08-simulation-optimization.md) · [相关专题练习](../exercises/03-input-queue-montecarlo.md)
 
 本讲依据课程课件 `simulation7_v3.pdf`（24 页），依次讲解 7.1 仿真模型的验证、7.2 仿真模型确认的“三步法”和 7.3 仿真输出数据与实际数据的比较方法。
 
