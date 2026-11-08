@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 724" role="img" aria-labelledby="title desc">
+  <title id="title">四工序项目在两种资源条件下的排程比较</title>
+  <desc id="desc">无资源冲突时，A零到二，B二到六，C二到五，D六到八，项目总工期八小时。有一台机器同时处理B和C时，A零到二，B二到六，C六到九，D九到十一，项目总工期十一小时。</desc>
+  <rect width="1200" height="724" rx="22" fill="#f8fafc"/>
+  <rect x="24" y="24" width="1152" height="676" rx="18" fill="white" stroke="#e2e8f0"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <text x="54" y="67" fill="#0f172a" font-size="25" font-weight="700">同一工序网络，两种资源条件</text>
+    <text x="54" y="100" fill="#64748b" font-size="16">A = 2 h，B = 4 h，C = 3 h，D = 2 h；B/C 都依赖 A，D 必须等待 B/C</text>
+  </g>
+
+  <!-- x position is x=180+78*t, for t in [0,11]. -->
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="180" y1="137" x2="180" y2="654"/>
+    <line x1="258" y1="137" x2="258" y2="654"/>
+    <line x1="336" y1="137" x2="336" y2="654"/>
+    <line x1="414" y1="137" x2="414" y2="654"/>
+    <line x1="492" y1="137" x2="492" y2="654"/>
+    <line x1="570" y1="137" x2="570" y2="654"/>
+    <line x1="648" y1="137" x2="648" y2="654"/>
+    <line x1="726" y1="137" x2="726" y2="654"/>
+    <line x1="804" y1="137" x2="804" y2="654"/>
+    <line x1="882" y1="137" x2="882" y2="654"/>
+    <line x1="960" y1="137" x2="960" y2="654"/>
+    <line x1="1038" y1="137" x2="1038" y2="654"/>
+  </g>
+  <line x1="54" y1="398" x2="1140" y2="398" stroke="#cbd5e1" stroke-width="2"/>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <text x="54" y="139" fill="#1d4ed8" font-size="19" font-weight="700">方案一 · B/C 可同时取得资源</text>
+    <text x="54" y="424" fill="#0f766e" font-size="19" font-weight="700">方案二 · B/C 共用容量为 1 的资源</text>
+    <text x="1130" y="139" text-anchor="end" fill="#1d4ed8" font-size="17" font-weight="700">项目工期 8 h</text>
+    <text x="1130" y="424" text-anchor="end" fill="#0f766e" font-size="17" font-weight="700">项目工期 11 h</text>
+  </g>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="#334155" font-size="17" text-anchor="end" font-weight="700">
+    <text x="152" y="196">A</text>
+    <text x="152" y="245">B</text>
+    <text x="152" y="294">C</text>
+    <text x="152" y="343">D</text>
+    <text x="152" y="477">A</text>
+    <text x="152" y="526">B</text>
+    <text x="152" y="575">C</text>
+    <text x="152" y="624">D</text>
+  </g>
+
+  <!-- Unconstrained schedule: A [0,2], B [2,6], C [2,5], D [6,8]. -->
+  <rect x="180" y="168" width="156" height="39" rx="5" fill="#475569"/>
+  <rect x="336" y="217" width="312" height="39" rx="5" fill="#2563eb"/>
+  <rect x="336" y="266" width="234" height="39" rx="5" fill="#60a5fa"/>
+  <rect x="648" y="315" width="156" height="39" rx="5" fill="#7c3aed"/>
+
+  <!-- Shared resource schedule: A [0,2], B [2,6], C [6,9], D [9,11]. -->
+  <rect x="180" y="449" width="156" height="39" rx="5" fill="#475569"/>
+  <rect x="336" y="498" width="312" height="39" rx="5" fill="#0f766e"/>
+  <rect x="648" y="547" width="234" height="39" rx="5" fill="#14b8a6"/>
+  <rect x="882" y="596" width="156" height="39" rx="5" fill="#7c3aed"/>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="white" font-size="15" text-anchor="middle" font-weight="700">
+    <text x="258" y="193">0–2</text>
+    <text x="492" y="242">2–6</text>
+    <text x="453" y="291">2–5</text>
+    <text x="726" y="340">6–8</text>
+    <text x="258" y="474">0–2</text>
+    <text x="492" y="523">2–6</text>
+    <text x="765" y="572">6–9</text>
+    <text x="960" y="621">9–11</text>
+  </g>
+
+  <line x1="804" y1="154" x2="804" y2="374" stroke="#2563eb" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="1038" y1="443" x2="1038" y2="654" stroke="#0f766e" stroke-width="2" stroke-dasharray="6 5"/>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="#475569" font-size="15" text-anchor="middle">
+    <text x="180" y="680">0</text>
+    <text x="258" y="680">1</text>
+    <text x="336" y="680">2</text>
+    <text x="414" y="680">3</text>
+    <text x="492" y="680">4</text>
+    <text x="570" y="680">5</text>
+    <text x="648" y="680">6</text>
+    <text x="726" y="680">7</text>
+    <text x="804" y="680">8</text>
+    <text x="882" y="680">9</text>
+    <text x="960" y="680">10</text>
+    <text x="1038" y="680">11</text>
+  </g>
+  <text x="1095" y="680" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#64748b">小时</text>
+</svg>
