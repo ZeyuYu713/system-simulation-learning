@@ -1,6 +1,6 @@
 # 第二讲｜仿真原理
 
-[返回学习目录](../README.md) · [上一讲：仿真概述](01-simulation-overview.md) · [专题：单机五零件手工仿真](../manual-event-simulation/02-single-machine-five-parts.md)
+[返回学习目录](../README.md) · [上一讲：仿真概述](01-simulation-overview.md) · [下一讲：随机数的生成与检验](03-random-number-generation-testing.md) · [专题：单机五零件手工仿真](../manual-event-simulation/02-single-machine-five-parts.md)
 
 本讲依据课程课件 `simulation2_v3.pdf`（73 页），对应 2.1 蒙特卡洛方法、2.2 离散系统仿真，以及 2.2.3 面向事件与面向过程的仿真。课件使用 Buffon 投针实验说明随机抽样的基本原理，再通过一台机器、五个零件、仿真截止时刻为 15 的例题讲解未来事件表、事件调度和统计输出。
 
