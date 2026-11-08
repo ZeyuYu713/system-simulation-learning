@@ -1,6 +1,6 @@
 # 第四讲｜随机变量的生成
 
-[返回学习目录](../README.md) · [上一讲：随机数的生成与检验](03-random-number-generation-testing.md) · [相关专题：随机数与分布变换](01-random-numbers.md)
+[返回学习目录](../README.md) · [上一讲：随机数的生成与检验](03-random-number-generation-testing.md) · [下一讲：仿真输入分析](05-simulation-input-analysis.md) · [相关专题：随机数与分布变换](01-random-numbers.md)
 
 本讲对应课程课件 `simulation4_v3.pdf`（55 页），主题是如何从基础均匀随机数生成仿真所需的目标分布。原课件依次介绍逆变法、函数变换法、近似法、卷积法、取舍法，以及连续和离散经验分布的抽样方法。这里保留原有知识顺序，补足概率推导、算法选择依据、适用条件和逐步计算例题。
 
