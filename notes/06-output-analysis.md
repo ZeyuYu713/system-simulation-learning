@@ -1,6 +1,6 @@
 # 第六讲｜仿真输出分析
 
-[返回学习目录](../README.md) · [上一讲：输入建模](05-input-modeling.md) · [输出分析专题练习](../exercises/02-advanced-exercises.md)
+[返回学习目录](../README.md) · [上一讲：输入建模](05-input-modeling.md) · [下一讲：模型的验证与确认](07-model-validation.md) · [输出分析专题练习](../exercises/02-advanced-exercises.md)
 
 本讲对应课程课件 `simulation6_v3.pdf`，共 38 页。课件分为四部分：6.1 仿真输出分析的涵义、6.2 终态仿真输出分析、6.3 稳态仿真输出分析、6.4 方差衰减技术。
 
