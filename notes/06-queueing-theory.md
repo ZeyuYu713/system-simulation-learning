@@ -1,6 +1,8 @@
-# 06｜排队系统：从利用率到等待时间
+# 排队理论专题｜从利用率到等待时间
 
 [返回学习地图](../README.md) · [离散事件服务台](02-discrete-event-queue.md) · [输入建模](05-input-modeling.md) · [专题练习](../exercises/03-input-queue-montecarlo.md)
+
+本页是原有的排队理论专题，非课件第六讲。第六讲对应[仿真输出分析](06-output-analysis.md)。
 
 排队系统的核心问题不是“服务台平均能处理多少人”，而是<strong>随机到达与随机服务相互叠加后，顾客会等待多久、队列会积累多少，以及增加服务能力能改善多少</strong>。
 
