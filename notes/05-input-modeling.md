@@ -1,6 +1,6 @@
 # 05｜仿真输入建模：从原始数据、概率分布到随机过程
 
-[返回课程目录](../README.md) · [上一讲：输出分析与实验设计](04-output-analysis.md) · [随机数与分布变换](01-random-numbers.md) · [排队理论](06-queueing-theory.md) · [输入与排队专题习题](../exercises/03-input-queue-montecarlo.md)
+[返回课程目录](../README.md) · [上一讲：输出分析与实验设计](04-output-analysis.md) · [随机数与分布变换](01-random-numbers.md) · [下一讲：仿真输出分析](06-output-analysis.md) · [输入与排队专题习题](../exercises/03-input-queue-montecarlo.md)
 
 仿真输入建模（Input Modeling）的任务，是为系统中无法事先确定的到达、服务、故障、需求等变量建立可信的随机描述。这个描述必须能够生成新的样本，并且在相关的业务条件下，保留影响系统绩效的统计特征。
 
@@ -828,6 +828,6 @@ exp(1)≈2.718 是拟合分布的中位数，不是其原尺度均值。这个�
 
 本章的指数参数估计、反函数生成、KS、卡方、三角分布、经验需求、分段泊松计数与对数正态均值，均可用[输入建模验算程序](../examples/input_modeling_checks.py)复现，运行只需 Python 标准库。
 
-需要进一步复习随机数基础，可返回[第一章：随机数与分布变换](01-random-numbers.md)；理解输入怎样影响排队表现，可接着阅读[第六章：排队理论](06-queueing-theory.md)。
+需要进一步复习随机数基础，可返回[第一章：随机数与分布变换](01-random-numbers.md)；课件的下一讲是[第六讲：仿真输出分析](06-output-analysis.md)。排队系统的事件推进可参考[离散事件与排队](02-discrete-event-queue.md)。
 
 有关概率分布与拟合检验的原始统计定义，可参考 NIST 的[指数分布](https://www.itl.nist.gov/div898/handbook/eda/section3/eda3667.htm)、[KS 拟合优度检验](https://www.itl.nist.gov/div898/handbook/eda/section3/eda35g.htm)、[Weibull 分布](https://www.itl.nist.gov/div898/handbook/eda/section3/eda3668.htm)。Arena Input Analyzer 的访问方式可参考 Rockwell Automation 的[官方常见问题](https://www.rockwellautomation.com/en-us/products/software/arena-simulation/support/frequently-asked-questions.html)。
