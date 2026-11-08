@@ -17,7 +17,8 @@
 | 专题：项目工序与 Arena | 工序先后关系、并行与汇合、资源约束、Arena 建模流程、验证 | [原有专题笔记](notes/03-arena-project-process.md) |
 | 04 随机变量的生成（原课件第四讲） | 逆变法、函数变换与 Box–Muller、近似法、卷积法、Gamma 的 GB/GS 取舍法、连续和离散经验分布抽样 | [完整笔记](notes/04-random-variate-generation.md) |
 | 专题：输出分析与实验设计 | 终止型与稳态仿真、预热期、批均值、置信区间、共同随机数、方差缩减 | [原有专题笔记](notes/04-output-analysis.md) |
-| 05 输入建模 | 观测数据、泊松到达、指数间隔、三角分布、拟合与敏感性分析 | [完整笔记](notes/05-input-modeling.md) |
+| 05 仿真输入分析（原课件第五讲） | 数据采集与独立性、直方图和离散线图、极大似然估计、卡方及 K–S 拟合检验、无数据时的敏感性分析 | [完整笔记](notes/05-simulation-input-analysis.md) |
+| 专题：输入建模 | 观测数据、泊松到达、指数间隔、三角分布、拟合与敏感性分析 | [原有专题笔记](notes/05-input-modeling.md) |
 | 06 仿真输出分析（原课件第六讲） | 终态仿真、置信区间、规定精度、稳态处理、重复—删除法、批平均值法、三种方差衰减技术 | [完整笔记](notes/06-output-analysis.md) |
 | 专题：排队理论 | Little 定律、M/M/1、M/M/c、Erlang C、拥塞与稳定条件 | [原有专题笔记](notes/06-queueing-theory.md) · [拥塞曲线](assets/mm1-congestion.svg) |
 | 07 仿真模型的验证与确认（原课件第七讲） | 程序验证、模型确认三步法、理论分布输入下的单样本 t 检验、历史输入下的配对 t 检验 | [完整笔记](notes/07-model-validation.md) |
