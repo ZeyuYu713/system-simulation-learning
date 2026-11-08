@@ -9,7 +9,8 @@
 | 模块 | 知识重点 | 学习资料 |
 | --- | --- | --- |
 | <strong>重点专题：零件加工事件调度</strong> | 基础模型、完整 FEL 推演、两机串联与单机截尾、队长面积、利用率及变式 | <strong>[专题主页](manual-event-simulation/README.md)</strong> · [概念与状态](manual-event-simulation/00-concepts-and-rules.md) · [FEL 明细](manual-event-simulation/03-fel-ledger.md) · [指标详解](manual-event-simulation/04-statistics-and-variants.md) |
-| 01 基础与随机数 | 系统、实体、状态、事件；线性同余法；均匀性与独立性检验；随机变量生成 | [完整笔记](notes/01-random-numbers.md) |
+| 01 仿真概述（原课件第一讲） | 项目管理与银行引例、仿真定义、优缺点与适用条件、模型分类、实施流程、发展及应用 | [完整笔记](notes/01-simulation-overview.md) |
+| 专题：随机数与分布变换 | 系统基本概念、线性同余法、均匀性与独立性检验、随机变量生成 | [原有综合笔记](notes/01-random-numbers.md) |
 | 02 离散事件与排队 | 未来事件表、事件推进、FCFS、双并行服务台、M/M/1 | [完整笔记](notes/02-discrete-event-queue.md) |
 | 03 项目工序与 Arena | 工序先后关系、并行与汇合、资源约束、Arena 建模流程、验证 | [完整笔记](notes/03-arena-project-process.md) |
 | 04 输出分析与实验设计 | 终止型与稳态仿真、预热期、批均值、置信区间、共同随机数、方差缩减 | [完整笔记](notes/04-output-analysis.md) |
