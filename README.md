@@ -18,7 +18,8 @@
 | 专题：排队理论 | Little 定律、M/M/1、M/M/c、Erlang C、拥塞与稳定条件 | [原有专题笔记](notes/06-queueing-theory.md) · [拥塞曲线](assets/mm1-congestion.svg) |
 | 07 仿真模型的验证与确认（原课件第七讲） | 程序验证、模型确认三步法、理论分布输入下的单样本 t 检验、历史输入下的配对 t 检验 | [完整笔记](notes/07-model-validation.md) |
 | 专题：蒙特卡洛 | 随机抽样、面积估计、标准误、库存成本与共同随机数 | [原有专题笔记](notes/07-monte-carlo.md) · [几何示意图](assets/monte-carlo-circle.svg) |
-| 08 练习与解析 | 30 道题，覆盖随机数、事件推进、统计输出、输入建模、排队论与蒙特卡洛 | [基础题 1–9](exercises/01-core-exercises.md) · [进阶题 10–18](exercises/02-advanced-exercises.md) · [专题题 19–30](exercises/03-input-queue-montecarlo.md) |
+| 08 仿真优化基础（原课件第八讲） | 确定型与随机型优化、GI/G/1成本模型、直接搜索与模式搜索、响应曲面法、有限差分与同步扰动梯度估计 | [完整笔记](notes/08-simulation-optimization.md) |
+| 专题练习 | 30 道题，覆盖随机数、事件推进、统计输出、输入建模、排队论与蒙特卡洛 | [基础题 1–9](exercises/01-core-exercises.md) · [进阶题 10–18](exercises/02-advanced-exercises.md) · [专题题 19–30](exercises/03-input-queue-montecarlo.md) |
 | 09 可运行示例 | 双服务台事件调度；库存蒙特卡洛与精确期望核验 | [双服务台 Python](examples/m1_priority_queue.py) · [库存蒙特卡洛 Python](examples/monte_carlo_inventory.py) |
 
 ## 核心流程
