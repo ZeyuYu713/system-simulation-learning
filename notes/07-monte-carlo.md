@@ -1,6 +1,8 @@
-# 07｜蒙特卡洛仿真：从随机样本估计未知结果
+# 蒙特卡洛仿真专题｜从随机样本估计未知结果
 
 [返回学习地图](../README.md) · [随机变量生成](01-random-numbers.md) · [输入建模](05-input-modeling.md) · [专题练习](../exercises/03-input-queue-montecarlo.md)
+
+本页为原有的蒙特卡洛专题，并非课件第七讲。第七讲对应[仿真模型的验证与确认](07-model-validation.md)。
 
 蒙特卡洛方法（Monte Carlo Simulation）的基本思想是：<strong>当目标量可以表示成随机变量的期望或某个事件的概率时，通过重复随机抽样来近似它</strong>。它不一定涉及事件时钟和排队状态；这与离散事件仿真是两种可以相互结合但并不相同的建模方式。
 
