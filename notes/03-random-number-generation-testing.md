@@ -1,6 +1,6 @@
 # 第三讲｜随机数的生成与检验
 
-[返回学习目录](../README.md) · [上一讲：仿真原理](02-simulation-principles.md) · [相关专题：随机数与分布变换](01-random-numbers.md)
+[返回学习目录](../README.md) · [上一讲：仿真原理](02-simulation-principles.md) · [下一讲：随机变量的生成](04-random-variate-generation.md) · [相关专题：随机数与分布变换](01-random-numbers.md)
 
 本讲对应课程课件 `simulation3_v3.pdf`（51 页）。课件首先解释均匀随机数与伪随机数的区别，再介绍平方取中法和线性同余法，最后从数字特征、均匀性、独立性三个方面检查随机数发生器。下面按课件知识顺序展开，公式与判定方法均以原课件为依据，另配少量明确标注的演示计算。
 
