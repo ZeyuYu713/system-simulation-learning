@@ -14,7 +14,8 @@
 | 03 项目工序与 Arena | 工序先后关系、并行与汇合、资源约束、Arena 建模流程、验证 | [完整笔记](notes/03-arena-project-process.md) |
 | 04 输出分析与实验设计 | 终止型与稳态仿真、预热期、批均值、置信区间、共同随机数、方差缩减 | [完整笔记](notes/04-output-analysis.md) |
 | 05 输入建模 | 观测数据、泊松到达、指数间隔、三角分布、拟合与敏感性分析 | [完整笔记](notes/05-input-modeling.md) |
-| 06 排队理论 | Little 定律、M/M/1、M/M/c、Erlang C、拥塞与稳定条件 | [完整笔记](notes/06-queueing-theory.md) · [拥塞曲线](assets/mm1-congestion.svg) |
+| 06 仿真输出分析（原课件第六讲） | 终态仿真、置信区间、规定精度、稳态处理、重复—删除法、批平均值法、三种方差衰减技术 | [完整笔记](notes/06-output-analysis.md) |
+| 专题：排队理论 | Little 定律、M/M/1、M/M/c、Erlang C、拥塞与稳定条件 | [原有专题笔记](notes/06-queueing-theory.md) · [拥塞曲线](assets/mm1-congestion.svg) |
 | 07 蒙特卡洛 | 随机抽样、面积估计、标准误、库存成本与共同随机数 | [完整笔记](notes/07-monte-carlo.md) · [几何示意图](assets/monte-carlo-circle.svg) |
 | 08 练习与解析 | 30 道题，覆盖随机数、事件推进、统计输出、输入建模、排队论与蒙特卡洛 | [基础题 1–9](exercises/01-core-exercises.md) · [进阶题 10–18](exercises/02-advanced-exercises.md) · [专题题 19–30](exercises/03-input-queue-montecarlo.md) |
 | 09 可运行示例 | 双服务台事件调度；库存蒙特卡洛与精确期望核验 | [双服务台 Python](examples/m1_priority_queue.py) · [库存蒙特卡洛 Python](examples/monte_carlo_inventory.py) |
