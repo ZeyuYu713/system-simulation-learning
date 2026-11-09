@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 560" role="img" aria-labelledby="title desc">
+  <title id="title">Planned confidence interval half width as replication count increases</title>
+  <desc id="desc">For pilot standard deviation 1.5, 95 percent t intervals and target half width 0.60, the predicted half width at 26 replications is 0.6059 and at 27 replications is 0.5934. The first planned count satisfying the target is 27, requiring 22 more than the pilot 5.</desc>
+  <rect width="1140" height="560" rx="22" fill="#f6f8fb"/>
+  <text x="52" y="55" font-family="Arial, sans-serif" font-weight="700" font-size="28" fill="#17324c">Trial-and-error replication count</text>
+  <text x="52" y="86" font-family="Arial, sans-serif" font-size="17" fill="#5c748b">95% interval   |   pilot R₀ = 5   |   pilot S₀ = 1.5   |   target half width β = 0.60</text>
+  <rect x="35" y="111" width="1070" height="405" rx="17" fill="#fff" stroke="#dce5ef"/>
+  <g stroke="#e4ecf4" stroke-width="1.4"><line x1="116" y1="205" x2="957" y2="205"/><line x1="116" y1="281" x2="957" y2="281"/><line x1="116" y1="357" x2="957" y2="357"/><line x1="116" y1="433" x2="957" y2="433"/></g>
+  <rect x="116" y="433" width="841" height="34" fill="#d6f0e9" opacity="0.75"/>
+  <line x1="116" y1="433" x2="957" y2="433" stroke="#2a8f83" stroke-width="2" stroke-dasharray="8 6"/>
+  <line x1="116" y1="168" x2="116" y2="467" stroke="#546f88" stroke-width="2"/>
+  <line x1="116" y1="467" x2="957" y2="467" stroke="#546f88" stroke-width="2"/>
+  <g fill="#667d94" font-family="Arial, sans-serif" font-size="16"><text x="70" y="210">1.80</text><text x="70" y="286">1.40</text><text x="70" y="362">1.00</text><text x="70" y="438">0.60</text><text x="125" y="489">5</text><text x="267" y="489">10</text><text x="411" y="489">15</text><text x="556" y="489">20</text><text x="701" y="489">25</text><text x="783" y="489">27</text><text x="922" y="489">32</text></g>
+  <polyline points="148.0,193.1 177.0,247.9 206.0,283.4 235.0,308.7 264.0,327.9 293.0,343.1 322.0,355.5 351.0,365.9 380.0,374.8 409.0,382.4 438.0,389.2 467.0,395.1 496.0,400.5 525.0,405.3 554.0,409.6 583.0,413.6 612.0,417.3 641.0,420.6 670.0,423.8 699.0,426.7 728.0,429.4 757.0,431.9 786.0,434.3 815.0,436.5 844.0,438.6 873.0,440.6 902.0,442.5 931.0,444.2" fill="none" stroke="#3275a4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="757" y1="431.9" x2="757" y2="467" stroke="#cc714d" stroke-width="2" stroke-dasharray="4 5"/>
+  <line x1="786" y1="434.3" x2="786" y2="467" stroke="#168777" stroke-width="2" stroke-dasharray="4 5"/>
+  <circle cx="757" cy="431.9" r="8" fill="#cc714d" stroke="white" stroke-width="2"/>
+  <circle cx="786" cy="434.3" r="8" fill="#168777" stroke="white" stroke-width="2"/>
+  <path d="M725 382 L757 425" fill="none" stroke="#cc714d" stroke-width="1.8"/>
+  <text x="596" y="376" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#a95d3c">26 → 0.6059</text>
+  <path d="M838 375 L788 428" fill="none" stroke="#168777" stroke-width="1.8"/>
+  <text x="833" y="370" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#11766c">27 → 0.5934</text>
+  <rect x="638" y="157" width="302" height="104" rx="12" fill="#edf6f7" stroke="#bddcdb"/>
+  <text x="657" y="189" font-family="Arial, sans-serif" font-size="18" fill="#527187">First count at or below β</text>
+  <text x="657" y="229" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#116f75">R* = 27</text>
+  <text x="825" y="228" font-family="Arial, sans-serif" font-size="18" fill="#527187">add 22 runs</text>
+  <text x="54" y="541" font-family="Arial, sans-serif" font-size="17" fill="#4e6880">Pilot-based planning; recompute actual S and half width after all additional runs.</text>
+</svg>
