@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 655" role="img" aria-labelledby="title desc">
+  <title id="title">并联系统三条状态结果曲线</title>
+  <desc id="desc">公共队长在1至2为1、3至4为1、4至5为2，其他时段为0。M1在0至7持续忙，M2在0至6忙、6至7闲。</desc>
+  <rect width="1000" height="655" rx="18" fill="#fafcfe"/>
+  <text x="40" y="40" fill="#17324c" font-family="Arial, sans-serif" font-size="24" font-weight="700">事件调度的三张状态结果图</text>
+  <text x="40" y="66" fill="#5b7384" font-family="Arial, sans-serif" font-size="14">与课堂黑板画法一致：横轴为时间，队长或机器状态在事件时刻跳变，事件间保持水平</text>
+  <g stroke="#e4edf2" stroke-width="1">
+    <path d="M140 119 V549 M240 119 V549 M340 119 V549 M440 119 V549 M540 119 V549 M640 119 V549 M740 119 V549 M840 119 V549"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="17" fill="#294f68" font-weight="700">
+    <text x="43" y="126">公共队长 Q(t)</text><text x="43" y="297">M1 忙闲 B1(t)</text><text x="43" y="445">M2 忙闲 B2(t)</text>
+  </g>
+  <g stroke="#778d9c" stroke-width="1.5">
+    <path d="M140 237 H850 M140 385 H850 M140 530 H850"/>
+  </g>
+  <path d="M140 237 H240 V199 H340 V237 H440 V199 H540 V161 H640 V237 H840 Z" fill="#cceae4" opacity="0.9"/>
+  <path d="M140 237 H240 V199 H340 V237 H440 V199 H540 V161 H640 V237 H840" stroke="#08796f" stroke-width="4" fill="none" stroke-linejoin="round"/>
+  <path d="M140 385 V347 H840 V385 Z" fill="#dde7ff"/>
+  <path d="M140 385 V347 H840 V385" stroke="#315fbd" stroke-width="4" fill="none"/>
+  <path d="M140 530 V492 H740 V530 H840 Z" fill="#fce8c8"/>
+  <path d="M140 530 V492 H740 V530 H840" stroke="#bd812a" stroke-width="4" fill="none"/>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#526c7b" text-anchor="end">
+    <text x="128" y="241">0</text><text x="128" y="203">1</text><text x="128" y="165">2</text>
+    <text x="128" y="389">0</text><text x="128" y="351">1</text>
+    <text x="128" y="534">0</text><text x="128" y="496">1</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#36566b" font-weight="700">
+    <text x="674" y="154">面积 = 4</text><text x="674" y="179" font-size="13" font-weight="400">时间平均 = 4/7</text>
+    <text x="674" y="327">忙碌面积 = 7</text><text x="674" y="363" font-size="13" font-weight="400">利用率 = 7/7</text>
+    <text x="674" y="468">忙碌面积 = 6</text><text x="674" y="509" font-size="13" font-weight="400">利用率 = 6/7</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#526c7b" text-anchor="middle">
+    <text x="140" y="577">0</text><text x="240" y="577">1</text><text x="340" y="577">2</text><text x="440" y="577">3</text><text x="540" y="577">4</text><text x="640" y="577">5</text><text x="740" y="577">6</text><text x="840" y="577">7</text>
+  </g>
+  <text x="490" y="608" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#294f68">时间 t</text>
+  <text x="490" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#627d8d">队长不包括服务中的顾客；机器状态 1=忙、0=闲</text>
+</svg>
