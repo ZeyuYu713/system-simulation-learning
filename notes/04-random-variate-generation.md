@@ -1167,8 +1167,8 @@ J=\begin{vmatrix}
 
 ```math
 f_{X,Y}(x,y)=\begin{cases}
-\frac{1}{2},&0<x+y<2\text{ 且 }0<x-y<2,\\
-0,&\text{其他位置}.
+\frac{1}{2},&0<x+y<2\ \text{and}\ 0<x-y<2,\\
+0,&\text{otherwise}.
 \end{cases}
 ```
 
@@ -1181,7 +1181,7 @@ f_{X,Y}(x,y)=\begin{cases}
 考虑目标密度：
 
 ```math
-f(x)=\begin{cases}2x,&0<x<1,\\0,&\text{其他}.
+f(x)=\begin{cases}2x,&0<x<1,\\0,&\text{otherwise}.
 \end{cases}
 ```
 
