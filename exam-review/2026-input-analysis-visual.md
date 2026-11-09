@@ -1,6 +1,6 @@
 # 仿真输入分析专项练习 07｜相关图、密度直方图、MLE 与拟合检验（图解）
 
-[返回总目录](../README.md) · [上一题：卷积、取舍法与经验分布](2026-convolution-rejection-empirical-visual.md) · [第五讲完整笔记](../notes/05-simulation-input-analysis.md) · [计算题册](2026-calculation-workbook.md)
+[返回总目录](../README.md) · [上一题：卷积、取舍法与经验分布](2026-convolution-rejection-empirical-visual.md) · [第五讲完整笔记](../notes/05-simulation-input-analysis.md) · [下一题：仿真输出分析](2026-output-analysis-visual.md) · [计算题册](2026-calculation-workbook.md)
 
 本章对应 `simulation5_v3.pdf` 的第五讲。题目围绕课件中的四个步骤组织：先判断样本是否有明显依赖，再通过图形选择候选分布，然后估计参数，最后做拟合优度检验。图形按照题设数据重新绘制，数值可逐项复算；它们是课堂方法的训练图，不代替课件原图中的具体样本。
 
