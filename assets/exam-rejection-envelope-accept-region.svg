@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1110 660" role="img" aria-labelledby="title desc">
+  <title id="title">接受拒绝法的目标密度覆盖面积与单位方形中的接受区域</title>
+  <desc id="desc">目标密度 f(x)=2x 在0到1上，覆盖函数 t(x)=2，覆盖面积2。候选均匀，接受条件 u小于等于x。左侧图是覆盖线和目标斜线；右侧图将u小于等于x的下三角涂绿。点(0.25,0.4)拒绝，点(0.8,0.3)接受。</desc>
+  <rect width="1110" height="660" rx="22" fill="#f8fafc"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <text x="47" y="51" font-size="28" font-weight="700" fill="#163b59">接受—拒绝法｜覆盖密度与接受区域是一回事的两种画法</text>
+    <text x="47" y="84" font-size="16" fill="#607b91">目标 f(x)=2x；覆盖 t(x)=2；归一化候选 r(x)=1；接受条件 u ≤ x</text>
+  </g>
+  <rect x="31" y="113" width="522" height="490" rx="15" fill="#ffffff" stroke="#dce7ee"/>
+  <rect x="570" y="113" width="510" height="490" rx="15" fill="#ffffff" stroke="#dce7ee"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#2b536d">
+    <text x="67" y="157">目标密度与覆盖面积</text>
+    <text x="603" y="157">(x,u) 落入哪一块区域？</text>
+  </g>
+  <!-- Left: x maps [0,1] to [150,500], density maps [0,2] to [500,240]. -->
+  <g stroke="#e3eaf0" stroke-width="1">
+    <path d="M150 370H500 M150 240H500 M325 240V500"/>
+  </g>
+  <path d="M150 240H500L150 500Z" fill="#f8dcc0" opacity="0.75"/>
+  <path d="M150 500H500V240Z" fill="#bdebe1" opacity="0.77"/>
+  <path d="M150 500L500 240" stroke="#0d8d81" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M150 240H500" stroke="#bd7937" stroke-width="3.6" stroke-dasharray="11 7" fill="none"/>
+  <path d="M150 229V500H515" stroke="#576e81" stroke-width="2.2" fill="none"/>
+  <g font-family="Arial, sans-serif" fill="#5d7387" font-size="15">
+    <text x="137" y="505" text-anchor="end">0</text><text x="137" y="375" text-anchor="end">1</text><text x="137" y="245" text-anchor="end">2</text>
+    <text x="150" y="525" text-anchor="middle">0</text><text x="325" y="525" text-anchor="middle">0.5</text><text x="500" y="525" text-anchor="middle">1</text>
+    <text x="510" y="545">x</text><text x="142" y="218">density</text>
+    <text x="283" y="263" fill="#a96a2c" font-weight="700">t(x)=2</text>
+    <text x="390" y="322" fill="#087a71" font-weight="700">f(x)=2x</text>
+  </g>
+  <!-- Right: x=[650,990], u=[0,1] maps y=[500,200]. -->
+  <g stroke="#e3eaf0" stroke-width="1">
+    <path d="M650 350H990 M820 200V500"/>
+  </g>
+  <path d="M650 200H990V200L650 500Z" fill="#f8d8d1" opacity="0.71"/>
+  <path d="M650 500L990 200V500Z" fill="#ade5d8" opacity="0.82"/>
+  <path d="M650 500L990 200" stroke="#0b887f" stroke-width="4" fill="none"/>
+  <path d="M650 187V500H1008" stroke="#576e81" stroke-width="2.2" fill="none"/>
+  <circle cx="735" cy="380" r="8.5" fill="#d35448" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="922" cy="410" r="8.5" fill="#158a74" stroke="#ffffff" stroke-width="3"/>
+  <g font-family="Arial, sans-serif" fill="#5d7387" font-size="15">
+    <text x="638" y="505" text-anchor="end">0</text><text x="638" y="355" text-anchor="end">0.5</text><text x="638" y="205" text-anchor="end">1</text>
+    <text x="650" y="525" text-anchor="middle">0</text><text x="820" y="525" text-anchor="middle">0.5</text><text x="990" y="525" text-anchor="middle">1</text>
+    <text x="1011" y="521">x</text><text x="640" y="182">u</text>
+    <text x="853" y="282" fill="#0c746c" font-weight="700">u=x</text>
+    <text x="751" y="371" fill="#b44a40" font-weight="700">拒绝</text>
+    <text x="922" y="446" fill="#047661" font-weight="700">接受</text>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#425f76">
+    <text x="71" y="567">覆盖面积 C=2；目标面积=1</text>
+    <text x="601" y="567">接受区域面积 = 1/2</text>
+    <text x="71" y="631">平均尝试次数 C=2　　　候选 (0.25, 0.40) 拒绝；候选 (0.80, 0.30) 接受。</text>
+  </g>
+</svg>
