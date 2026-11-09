@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 560" role="img" aria-labelledby="title desc">
+  <title id="title">Confidence intervals at 90 and 95 percent from five independent replications</title>
+  <desc id="desc">Five replication means 4,6,8,6,6 have mean 6 and sample variance 2. The 90 percent interval is 4.652 to 7.348 and the 95 percent interval is 4.244 to 7.756, with a common center of 6.</desc>
+  <rect width="1140" height="560" rx="22" fill="#f6f8fb"/>
+  <text x="52" y="54" font-family="Arial, sans-serif" font-weight="700" font-size="29" fill="#19334c">Independent replications: interval width</text>
+  <text x="52" y="87" font-family="Arial, sans-serif" font-size="17" fill="#5e748b">R = 5   |   replication means = [4, 6, 8, 6, 6]   |   sample mean = 6   |   S² = 2</text>
+  <rect x="35" y="111" width="1068" height="395" rx="17" fill="white" stroke="#dce5ef"/>
+  <g stroke="#edf1f5" stroke-width="1.5"><line x1="190" y1="160" x2="190" y2="435"/><line x1="317" y1="160" x2="317" y2="435"/><line x1="443" y1="160" x2="443" y2="435"/><line x1="570" y1="160" x2="570" y2="435"/><line x1="697" y1="160" x2="697" y2="435"/><line x1="823" y1="160" x2="823" y2="435"/><line x1="950" y1="160" x2="950" y2="435"/></g>
+  <g font-family="Arial, sans-serif" font-size="17" fill="#60768e" text-anchor="middle"><text x="190" y="465">3</text><text x="317" y="465">4</text><text x="443" y="465">5</text><text x="570" y="465">6</text><text x="697" y="465">7</text><text x="823" y="465">8</text><text x="950" y="465">9</text></g>
+  <line x1="190" y1="435" x2="950" y2="435" stroke="#526e89" stroke-width="2"/>
+  <line x1="570" y1="162" x2="570" y2="430" stroke="#8ba0b3" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="570" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#557087">center = 6</text>
+  <text x="64" y="237" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#a95f42">95% CI</text>
+  <text x="64" y="345" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#1d7887">90% CI</text>
+  <g stroke="#d97955" stroke-width="7" stroke-linecap="round"><line x1="347.6" y1="231" x2="792.4" y2="231"/></g>
+  <g stroke="#d97955" stroke-width="4"><line x1="347.6" y1="214" x2="347.6" y2="248"/><line x1="792.4" y1="214" x2="792.4" y2="248"/></g>
+  <g stroke="#278c98" stroke-width="7" stroke-linecap="round"><line x1="399.2" y1="340" x2="740.8" y2="340"/></g>
+  <g stroke="#278c98" stroke-width="4"><line x1="399.2" y1="323" x2="399.2" y2="357"/><line x1="740.8" y1="323" x2="740.8" y2="357"/></g>
+  <circle cx="570" cy="231" r="9" fill="#fff" stroke="#d97955" stroke-width="4"/><circle cx="570" cy="340" r="9" fill="#fff" stroke="#278c98" stroke-width="4"/>
+  <g font-family="Arial, sans-serif" font-weight="700" font-size="18" text-anchor="middle"><text x="347.6" y="197" fill="#b96445">4.244</text><text x="792.4" y="197" fill="#b96445">7.756</text><text x="399.2" y="311" fill="#1b7483">4.652</text><text x="740.8" y="311" fill="#1b7483">7.348</text></g>
+  <text x="978" y="237" font-family="Arial, sans-serif" font-size="17" fill="#ac6549">h ≈ 1.756</text>
+  <text x="978" y="345" font-family="Arial, sans-serif" font-size="17" fill="#267b86">h ≈ 1.348</text>
+  <text x="53" y="540" font-family="Arial, sans-serif" font-size="18" fill="#4e6780">Higher confidence requires a larger critical value; the data and center remain unchanged.</text>
+</svg>
