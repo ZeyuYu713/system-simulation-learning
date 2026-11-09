@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 570" role="img" aria-labelledby="title desc">
+  <title id="title">Chi-square goodness-of-fit grouped frequency comparison</title>
+  <desc id="desc">Expected counts 10,20,30,40; observed counts 3,12,45,40. The four chi-square contributions are 4.9,3.2,7.5,0, total chi-square 15.6; compare against 7.815 with three degrees of freedom to reject the null.</desc>
+  <rect width="1140" height="570" rx="22" fill="#f6f8fb"/>
+  <text x="56" y="54" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#172e44">Chi-square goodness-of-fit  |  grouped frequencies</text>
+  <text x="56" y="86" font-family="Arial, sans-serif" font-size="17" fill="#577087">n = 100    theory p = (0.10, 0.20, 0.30, 0.40)    df = 3</text>
+  <rect x="35" y="113" width="790" height="408" rx="17" fill="#fff" stroke="#dce5ef"/>
+  <rect x="847" y="113" width="260" height="408" rx="17" fill="#fff" stroke="#dce5ef"/>
+  <text x="72" y="158" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#233f59">Count</text>
+  <rect x="180" y="143" width="16" height="16" rx="3" fill="#438db0"/><text x="204" y="158" font-family="Arial, sans-serif" font-size="17" fill="#3c556c">Expected</text>
+  <rect x="314" y="143" width="16" height="16" rx="3" fill="#e18a5e"/><text x="338" y="158" font-family="Arial, sans-serif" font-size="17" fill="#3c556c">Observed</text>
+  <g stroke="#e3ebf3" stroke-width="1.5"><line x1="117" y1="420" x2="774" y2="420"/><line x1="117" y1="358" x2="774" y2="358"/><line x1="117" y1="296" x2="774" y2="296"/><line x1="117" y1="234" x2="774" y2="234"/><line x1="117" y1="172" x2="774" y2="172"/></g>
+  <g stroke="#526b82" stroke-width="2"><line x1="117" y1="150" x2="117" y2="420"/><line x1="117" y1="420" x2="774" y2="420"/></g>
+  <g fill="#6c8094" font-family="Arial, sans-serif" font-size="15" text-anchor="end"><text x="104" y="425">0</text><text x="104" y="363">10</text><text x="104" y="301">20</text><text x="104" y="239">30</text><text x="104" y="177">40</text></g>
+  <g fill="#438db0"><rect x="173" y="358" width="49" height="62" rx="3"/><rect x="337" y="296" width="49" height="124" rx="3"/><rect x="501" y="234" width="49" height="186" rx="3"/><rect x="665" y="172" width="49" height="248" rx="3"/></g>
+  <g fill="#e18a5e"><rect x="227" y="401.4" width="49" height="18.6" rx="3"/><rect x="391" y="345.6" width="49" height="74.4" rx="3"/><rect x="555" y="141" width="49" height="279" rx="3"/><rect x="719" y="172" width="49" height="248" rx="3"/></g>
+  <g font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle"><text x="197" y="347" fill="#256f96">10</text><text x="251" y="390" fill="#b85f3a">3</text><text x="361" y="285" fill="#256f96">20</text><text x="415" y="335" fill="#b85f3a">12</text><text x="525" y="223" fill="#256f96">30</text><text x="579" y="131" fill="#b85f3a">45</text><text x="689" y="161" fill="#256f96">40</text><text x="743" y="161" fill="#b85f3a">40</text></g>
+  <g font-family="Arial, sans-serif" font-size="17" text-anchor="middle" fill="#4d667e"><text x="224" y="450">Group 1</text><text x="388" y="450">Group 2</text><text x="552" y="450">Group 3</text><text x="716" y="450">Group 4</text></g>
+  <g font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#9e653b"><text x="224" y="489">χ² part 4.90</text><text x="388" y="489">3.20</text><text x="552" y="489">7.50</text><text x="716" y="489">0.00</text></g>
+  <text x="876" y="165" font-family="Arial, sans-serif" font-size="17" fill="#59728a">Test statistic</text>
+  <text x="875" y="209" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#233f59">15.60</text>
+  <line x1="874" y1="229" x2="1078" y2="229" stroke="#dbe5ee"/>
+  <text x="876" y="262" font-family="Arial, sans-serif" font-size="17" fill="#59728a">Critical value, 5%</text>
+  <text x="875" y="304" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#233f59">7.815</text>
+  <line x1="874" y1="324" x2="1078" y2="324" stroke="#dbe5ee"/>
+  <text x="875" y="370" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#b95c41">15.60 &gt; 7.815</text>
+  <rect x="872" y="397" width="205" height="58" rx="10" fill="#fff0ea" stroke="#efbaa6"/>
+  <text x="974" y="434" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#a74f38">Reject H₀</text>
+  <text x="57" y="549" font-family="Arial, sans-serif" font-size="17" fill="#526b81">All expected counts are at least 5; parameters and grouping specified before sampling.</text>
+</svg>
