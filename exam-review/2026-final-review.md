@@ -1,6 +1,6 @@
 # 期末复习专题｜课堂串讲、重点辨析与计算题训练
 
-[返回学习目录](../README.md) · [手工事件调度专题](../manual-event-simulation/README.md) · [第三讲：随机数](../notes/03-random-number-generation-testing.md) · [第四讲：随机变量](../notes/04-random-variate-generation.md) · [第六讲：输出分析](../notes/06-output-analysis.md) · [八讲覆盖检查](2026-coverage-audit.md) · [16 道计算专项](2026-calculation-workbook.md)
+[返回学习目录](../README.md) · [A／B／C 三套综合模拟卷](2026-mock-exams-index.md) · [手工事件调度专题](../manual-event-simulation/README.md) · [第三讲：随机数](../notes/03-random-number-generation-testing.md) · [第四讲：随机变量](../notes/04-random-variate-generation.md) · [第六讲：输出分析](../notes/06-output-analysis.md) · [八讲覆盖检查](2026-coverage-audit.md) · [16 道计算专项](2026-calculation-workbook.md)
 
 本章依据 2026 年 11 月 9 日两段《系统仿真》课堂录音的转写整理：第一段约 40 分钟，教师在黑板上演示两台机器并联、串联时如何推进未来事件表；第二段约 33 分钟，依次讨论随机数、随机变量、输入分析、输出分析以及期末题型。它是<strong>复习专题</strong>，不是原课程新增的第九讲，也不替代第一至第八讲的完整课件笔记。
 
