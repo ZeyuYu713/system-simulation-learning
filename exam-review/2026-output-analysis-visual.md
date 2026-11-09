@@ -1,6 +1,6 @@
 # 仿真输出分析专项练习 08｜独立重复、精度试算、稳态与方差缩减（图解）
 
-[返回总目录](../README.md) · [上一题：输入分析图解](2026-input-analysis-visual.md) · [第六讲完整笔记](../notes/06-output-analysis.md) · [期末复习总章](2026-final-review.md)
+[返回总目录](../README.md) · [上一题：输入分析图解](2026-input-analysis-visual.md) · [第六讲完整笔记](../notes/06-output-analysis.md) · [下一题：模型验证与确认图解](2026-model-verification-validation-visual.md) · [期末复习总章](2026-final-review.md)
 
 本章对应 `simulation6_v3.pdf`。与第五讲“从观测数据选择输入分布”不同，第六讲回答的是：模型运行完后，怎样从带随机波动的输出中估计系统性能，怎样控制置信区间的宽度，以及如何避免把相关输出误当成独立样本。题目数字专为训练重新设置，四张结果图由相同数据计算得到，并非对课件截图的照搬。
 
@@ -389,4 +389,4 @@ A&=0\times2+1\times2+3\times3+1\times3=14,\\
 
 若题目出现预热期，先处理初始瞬态；若出现规定精度，按整数试算并在追加实验后重算；若出现两种方案比较，先写每对差值；若出现已知期望的辅助变量，再考虑控制变量校正。不同方法可以组合，但每一种方法的估计目标和方差公式必须对应。
 
-[返回总目录](../README.md) · [第六讲完整笔记](../notes/06-output-analysis.md) · [下一讲：模型验证与确认](../notes/07-model-validation.md)
+[返回总目录](../README.md) · [第六讲完整笔记](../notes/06-output-analysis.md) · [下一题：模型验证与确认图解](2026-model-verification-validation-visual.md) · [下一讲：模型验证与确认](../notes/07-model-validation.md)
