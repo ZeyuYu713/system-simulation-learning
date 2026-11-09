@@ -332,4 +332,4 @@ CI_{90\%}=0\pm2.015(0.2129)
 | `p>0.05` 说明模型已被证明正确 | 只能说明差异检验不拒绝；实际适用性还要看误差界限、覆盖工况和其他指标 |
 | 比较均值通过，所以 95% 分位数也准确 | 不同统计指标需要各自的确认依据 |
 
-[返回总目录](../README.md) · [上一题：输出分析图解](2026-output-analysis-visual.md) · [第七讲完整笔记](../notes/07-model-validation.md) · [下一讲：仿真优化基础](../notes/08-simulation-optimization.md)
+[返回总目录](../README.md) · [上一题：输出分析图解](2026-output-analysis-visual.md) · [第七讲完整笔记](../notes/07-model-validation.md) · [下一讲：仿真优化基础](../notes/08-simulation-optimization.md) · [第八讲十题图解](2026-simulation-optimization-visual.md)
