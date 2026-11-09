@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 795" role="img" aria-labelledby="title desc">
+  <title id="title">串联加工两条队列与两台机器的四条状态阶梯曲线</title>
+  <desc id="desc">Q1在1至3为1、3至5为2、5至6为1，面积7。Q2在7至8和9至11为1，面积3。M1在0至8忙，M2在3至5和6至12忙，各忙8时间单位。</desc>
+  <rect width="1100" height="795" rx="18" fill="#fafcfe"/>
+  <text x="42" y="40" fill="#17324c" font-family="Arial, sans-serif" font-size="24" font-weight="700">两条队列与两台机器的状态曲线</text>
+  <text x="42" y="66" fill="#587285" font-family="Arial, sans-serif" font-size="14">队长 Q1、Q2 只统计等待者；忙闲 B1、B2 取值为 0 或 1；四张图共用同一时间轴</text>
+  <g stroke="#e4edf2" stroke-width="1">
+    <path d="M140 110 V708 M205 110 V708 M270 110 V708 M335 110 V708 M400 110 V708 M465 110 V708 M530 110 V708 M595 110 V708 M660 110 V708 M725 110 V708 M790 110 V708 M855 110 V708 M920 110 V708"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="17" fill="#294f68" font-weight="700">
+    <text x="40" y="123">M1 队长 Q1(t)</text><text x="40" y="276">M2 队长 Q2(t)</text>
+    <text x="40" y="425">M1 忙闲 B1(t)</text><text x="40" y="575">M2 忙闲 B2(t)</text>
+  </g>
+  <g stroke="#778d9c" stroke-width="1.5"><path d="M140 235 H932 M140 385 H932 M140 535 H932 M140 685 H932"/></g>
+  <path d="M140 235 H205 V195 H335 V155 H465 V195 H530 V235 H920 Z" fill="#cfede5" opacity="0.9"/>
+  <path d="M140 235 H205 V195 H335 V155 H465 V195 H530 V235 H920" stroke="#08796f" stroke-width="4" fill="none" stroke-linejoin="round"/>
+  <path d="M140 385 H595 V345 H660 V385 H725 V345 H855 V385 H920 Z" fill="#e1e8ff" opacity="0.9"/>
+  <path d="M140 385 H595 V345 H660 V385 H725 V345 H855 V385 H920" stroke="#315fbd" stroke-width="4" fill="none" stroke-linejoin="round"/>
+  <path d="M140 535 V495 H660 V535 H920 Z" fill="#fcead0"/>
+  <path d="M140 535 V495 H660 V535 H920" stroke="#bd812a" stroke-width="4" fill="none"/>
+  <path d="M140 685 H335 V645 H465 V685 H530 V645 H920 V685 Z" fill="#ebe2fb"/>
+  <path d="M140 685 H335 V645 H465 V685 H530 V645 H920 V685" stroke="#8051ab" stroke-width="4" fill="none"/>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#536e7c" text-anchor="end">
+    <text x="128" y="239">0</text><text x="128" y="199">1</text><text x="128" y="159">2</text>
+    <text x="128" y="389">0</text><text x="128" y="349">1</text>
+    <text x="128" y="539">0</text><text x="128" y="499">1</text>
+    <text x="128" y="689">0</text><text x="128" y="649">1</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#36566b" text-anchor="start">
+    <text x="952" y="185">面积 7</text><text x="952" y="207" font-size="12" font-weight="400">均值 7/12</text>
+    <text x="952" y="338">面积 3</text><text x="952" y="360" font-size="12" font-weight="400">均值 3/12</text>
+    <text x="952" y="488">忙 8</text><text x="952" y="510" font-size="12" font-weight="400">利用率 8/12</text>
+    <text x="952" y="638">忙 8</text><text x="952" y="660" font-size="12" font-weight="400">利用率 8/12</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#506a7b" text-anchor="middle">
+    <text x="140" y="734">0</text><text x="205" y="734">1</text><text x="270" y="734">2</text><text x="335" y="734">3</text><text x="400" y="734">4</text><text x="465" y="734">5</text><text x="530" y="734">6</text><text x="595" y="734">7</text><text x="660" y="734">8</text><text x="725" y="734">9</text><text x="790" y="734">10</text><text x="855" y="734">11</text><text x="920" y="734">12</text>
+  </g>
+  <text x="530" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#294f68">仿真时间 TNOW</text>
+  <text x="530" y="786" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#627d8d">同刻全部事件处理后的状态；零持续时间的中间状态不计面积</text>
+</svg>
