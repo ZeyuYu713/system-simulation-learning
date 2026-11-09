@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 480" role="img" aria-labelledby="title desc">
+  <title id="title">四零件双机串联及运输时间线</title>
+  <desc id="desc">M1 A0-2 B2-5 C5-6 D6-8；运输 A2-3 B5-6 C6-7 D8-9；M2 A3-5 B6-8 C8-11 D11-12。</desc>
+  <rect width="1100" height="480" rx="18" fill="#fafcfe"/>
+  <text x="42" y="40" fill="#17324c" font-family="Arial, sans-serif" font-size="24" font-weight="700">双机串联：加工 → 运输 → 加工</text>
+  <text x="42" y="66" fill="#587285" font-family="Arial, sans-serif" font-size="14">水平长度严格对应时间；运输需要 1 个单位，空白区间为机器空闲</text>
+  <g stroke="#e1eaf0" stroke-width="1">
+    <path d="M140 95 V365 M205 95 V365 M270 95 V365 M335 95 V365 M400 95 V365 M465 95 V365 M530 95 V365 M595 95 V365 M660 95 V365 M725 95 V365 M790 95 V365 M855 95 V365 M920 95 V365"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#294f68" font-weight="700" text-anchor="end">
+    <text x="112" y="148">M1</text><text x="112" y="239">运输</text><text x="112" y="335">M2</text>
+  </g>
+  <rect x="140" y="111" width="780" height="52" rx="4" fill="#edf3f6" stroke="#cad9e3"/>
+  <rect x="140" y="212" width="780" height="34" rx="4" fill="#edf3f6" stroke="#cad9e3"/>
+  <rect x="140" y="302" width="780" height="52" rx="4" fill="#edf3f6" stroke="#cad9e3"/>
+  <g stroke="#ffffff" stroke-width="2">
+    <rect x="140" y="111" width="130" height="52" fill="#3266c2"/>
+    <rect x="270" y="111" width="195" height="52" fill="#15847c"/>
+    <rect x="465" y="111" width="65" height="52" fill="#be8629"/>
+    <rect x="530" y="111" width="130" height="52" fill="#8051ab"/>
+    <rect x="270" y="212" width="65" height="34" fill="#3266c2"/>
+    <rect x="465" y="212" width="65" height="34" fill="#15847c"/>
+    <rect x="530" y="212" width="65" height="34" fill="#be8629"/>
+    <rect x="660" y="212" width="65" height="34" fill="#8051ab"/>
+    <rect x="335" y="302" width="130" height="52" fill="#3266c2"/>
+    <rect x="530" y="302" width="130" height="52" fill="#15847c"/>
+    <rect x="660" y="302" width="195" height="52" fill="#be8629"/>
+    <rect x="855" y="302" width="65" height="52" fill="#8051ab"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <text x="205" y="143">A · 0–2</text><text x="367.5" y="143">B · 2–5</text><text x="497.5" y="143">C</text><text x="595" y="143">D · 6–8</text>
+    <text x="302.5" y="234">A</text><text x="497.5" y="234">B</text><text x="562.5" y="234">C</text><text x="692.5" y="234">D</text>
+    <text x="400" y="334">A · 3–5</text><text x="595" y="334">B · 6–8</text><text x="757.5" y="334">C · 8–11</text><text x="887.5" y="334">D</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#506a7b" text-anchor="middle">
+    <text x="140" y="388">0</text><text x="205" y="388">1</text><text x="270" y="388">2</text><text x="335" y="388">3</text><text x="400" y="388">4</text><text x="465" y="388">5</text><text x="530" y="388">6</text><text x="595" y="388">7</text><text x="660" y="388">8</text><text x="725" y="388">9</text><text x="790" y="388">10</text><text x="855" y="388">11</text><text x="920" y="388">12</text>
+  </g>
+  <text x="530" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#294f68">仿真时间 TNOW</text>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#506a7b">
+    <rect x="257" y="446" width="14" height="14" rx="2" fill="#3266c2"/><text x="280" y="458">零件 A</text>
+    <rect x="392" y="446" width="14" height="14" rx="2" fill="#15847c"/><text x="415" y="458">零件 B</text>
+    <rect x="527" y="446" width="14" height="14" rx="2" fill="#be8629"/><text x="550" y="458">零件 C</text>
+    <rect x="662" y="446" width="14" height="14" rx="2" fill="#8051ab"/><text x="685" y="458">零件 D</text>
+  </g>
+</svg>
