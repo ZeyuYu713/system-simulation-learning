@@ -6,11 +6,15 @@
 
 > <strong>期末复习专题｜课堂录音串讲</strong>：将 2026-11-09 两段课堂录音整理为复习范围依据、易错概念、完整手工事件表、满周期随机数发生器、分布变换证明以及置信区间试算法。<strong>[进入期末复习章节](exam-review/2026-final-review.md)</strong>。
 
+> <strong>八讲覆盖检查与计算专项</strong>：按第一至第八讲核对主干知识，并提供 16 道重新设计的题目、逐步计算及常见错误。<strong>[查看覆盖检查](exam-review/2026-coverage-audit.md)</strong> · <strong>[开始计算题训练](exam-review/2026-calculation-workbook.md)</strong>。
+
 ## 学习地图
 
 | 模块 | 知识重点 | 学习资料 |
 | --- | --- | --- |
 | <strong>期末专题：课堂串讲与计算题训练</strong> | 课堂强调与证据边界、手工事件调度、LCG 构造、分布证明、试算法及八讲查漏 | <strong>[完整期末复习章节](exam-review/2026-final-review.md)</strong> |
+| <strong>八讲课程覆盖检查</strong> | 每讲的主干、录音能够确认的重点、对应训练题和常见错误 | [覆盖清单与复习路径](exam-review/2026-coverage-audit.md) |
+| <strong>16 道期末计算专项</strong> | 单机与双机事件表、LCG、分布变换、输入估计、独立重复与精度试算、检验和优化 | [逐题答案与详细解析](exam-review/2026-calculation-workbook.md) |
 | <strong>重点专题：零件加工事件调度</strong> | 基础模型、完整 FEL 推演、两机串联与单机截尾、队长面积、利用率及变式 | <strong>[专题主页](manual-event-simulation/README.md)</strong> · [概念与状态](manual-event-simulation/00-concepts-and-rules.md) · [FEL 明细](manual-event-simulation/03-fel-ledger.md) · [指标详解](manual-event-simulation/04-statistics-and-variants.md) |
 | 01 仿真概述（原课件第一讲） | 项目管理与银行引例、仿真定义、优缺点与适用条件、模型分类、实施流程、发展及应用 | [完整笔记](notes/01-simulation-overview.md) |
 | 专题：随机数与分布变换 | 系统基本概念、线性同余法、均匀性与独立性检验、随机变量生成 | [原有综合笔记](notes/01-random-numbers.md) |
@@ -81,7 +85,7 @@ flowchart TD
 | 记号 | 含义 |
 | --- | --- |
 | `U` | `U(0,1)` 均匀随机数 |
-| `A_i, S_i, B_i, D_i` | 顾客 `i` 的到达、服务时长、开始服务、离开时刻 |
+| `A_i, S_i, B_i, D_i` | 顾客 `i` 的到达、开始服务、服务时长、完成服务时刻 |
 | `W_(q,i), W_i` | 排队等待时间、系统逗留时间 |
 | `L_q(t)` | 时刻 `t` 等待队列中的实体数量 |
 | `ρ` | 资源忙碌时间比例；在 `M/M/1` 中为 `λ/μ` |
