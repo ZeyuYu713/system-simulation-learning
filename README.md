@@ -2,7 +2,7 @@
 
 以<strong>概念理解、数学推导、事件计算、模型实现和统计分析</strong>为主线，系统整理仿真的核心知识。每个主题尽量包含定义、公式、可计算的例子和常见错误，适合从基础逐步学习，也可作为随时查阅的知识手册。
 
-> <strong>重点专题｜手工离散事件仿真</strong>：从四个零件、M1→运输→M2 的串联加工题出发，逐时刻填写 TNOW/FEL、画机器时间线与队长阶梯图，并区分 `t=10` 截面与全部完工。<strong>[进入零件加工专题](manual-event-simulation/README.md)</strong>。
+> <strong>新增｜期末综合模拟卷 A／B／C</strong>：三套 100 分制自编练习卷，分别以双机并联事件调度、输出分析置信区间及试算法、`m=3900` 线性同余发生器为大计算题；概念判断与简答逐题附解析。A 卷提供每个事件时刻的完整 FEL、零件时间线、队长阶梯和两机利用率图。<strong>[进入三套期末模拟卷](exam-review/2026-mock-exams-index.md)</strong>。\n\n> <strong>重点专题｜手工离散事件仿真</strong>：从四个零件、M1→运输→M2 的串联加工题出发，逐时刻填写 TNOW/FEL、画机器时间线与队长阶梯图，并区分 `t=10` 截面与全部完工。<strong>[进入零件加工专题](manual-event-simulation/README.md)</strong>。
 
 > <strong>期末必练｜三种手工事件调度完整 FEL 表</strong>：逐时刻列单机、双机并联、双机串联的完整事件表，并用每段时间的队长与忙闲面积反核排队时间、系统逗留和机器利用率。<strong>[打开三种结构逐时刻 FEL 账本](exam-review/2026-event-complete-fel-ledger.md)</strong>。
 
