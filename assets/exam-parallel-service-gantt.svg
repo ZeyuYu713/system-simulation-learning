@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 390" role="img" aria-labelledby="title desc">
+  <title id="title">双机并联六位顾客加工时间线</title>
+  <desc id="desc">M1 加工 A 在0至4、D 在4至5、E 在5至7；M2 加工 B 在0至2、C 在2至5、F 在5至6，6至7空闲。</desc>
+  <rect width="1000" height="390" rx="18" fill="#fafcfe"/>
+  <text x="42" y="38" fill="#17324c" font-family="Arial, sans-serif" font-size="24" font-weight="700">并联机器加工时间线</text>
+  <text x="42" y="63" fill="#587285" font-family="Arial, sans-serif" font-size="14">六位顾客共用 FCFS 队列；M1、M2 同时空闲时优先 M1</text>
+  <g stroke="#e3ebf1" stroke-width="1">
+    <path d="M140 101 V291 M240 101 V291 M340 101 V291 M440 101 V291 M540 101 V291 M640 101 V291 M740 101 V291 M840 101 V291"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="17" fill="#284e67" font-weight="700" text-anchor="end">
+    <text x="113" y="157">M1</text><text x="113" y="257">M2</text>
+  </g>
+  <rect x="140" y="121" width="700" height="56" rx="5" fill="#eff4f7" stroke="#cad9e3"/>
+  <rect x="140" y="220" width="700" height="56" rx="5" fill="#eff4f7" stroke="#cad9e3"/>
+  <rect x="140" y="121" width="400" height="56" fill="#3266c2"/>
+  <rect x="540" y="121" width="100" height="56" fill="#8051ab"/>
+  <rect x="640" y="121" width="200" height="56" fill="#b65374"/>
+  <rect x="140" y="220" width="200" height="56" fill="#15847c"/>
+  <rect x="340" y="220" width="300" height="56" fill="#be8629"/>
+  <rect x="640" y="220" width="100" height="56" fill="#3899a9"/>
+  <g stroke="#ffffff" stroke-width="2"><path d="M540 121 V177 M640 121 V177 M340 220 V276 M640 220 V276"/></g>
+  <g font-family="Arial, sans-serif" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">
+    <text x="340" y="155">A · 0–4</text><text x="590" y="155">D</text><text x="740" y="155">E · 5–7</text>
+    <text x="240" y="253">B · 0–2</text><text x="490" y="253">C · 2–5</text><text x="690" y="253">F</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#506a7b" text-anchor="middle">
+    <text x="140" y="307">0</text><text x="240" y="307">1</text><text x="340" y="307">2</text><text x="440" y="307">3</text><text x="540" y="307">4</text><text x="640" y="307">5</text><text x="740" y="307">6</text><text x="840" y="307">7</text>
+  </g>
+  <text x="490" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#284e67">仿真时间 TNOW</text>
+  <text x="490" y="366" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#607b8c">M1 忙碌 7/7，M2 忙碌 6/7；灰色区间表示机器空闲</text>
+</svg>
