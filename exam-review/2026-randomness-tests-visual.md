@@ -1,6 +1,6 @@
 # 随机数专项练习 04｜卡方、K–S、游程与连贯性检验（图解）
 
-[返回总目录](../README.md) · [上一题：LCG 满周期](2026-lcg-full-period-drill.md) · [第三讲原课件笔记](../notes/03-random-number-generation-testing.md) · [计算题集](2026-calculation-workbook.md)
+[返回总目录](../README.md) · [上一题：LCG 满周期](2026-lcg-full-period-drill.md) · [下一题：第四讲随机变量变换](2026-random-variate-transforms-visual.md) · [第三讲原课件笔记](../notes/03-random-number-generation-testing.md) · [计算题集](2026-calculation-workbook.md)
 
 本节把第三讲“随机数检验”的概念和计算连起来。课堂录音二 `07:23—11:21` 明确强调了卡方与 K–S 的区别，以及游程、连贯性中“连的数量和长度”如何识别。录音还提到随机数检验主要关注概念，<strong>下面的数值计算与重绘结果图是配套训练，不代表老师承诺考试会要求完整手算每个检验统计量</strong>。
 
