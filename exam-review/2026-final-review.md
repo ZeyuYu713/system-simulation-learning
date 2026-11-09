@@ -242,6 +242,8 @@ U_{n+1}=\frac{X_{n+1}}{m}
 
 > <strong>六道详细推导与结果图</strong>：若需要按题一步步计算指数/三角逆变，证明 `Y=U²` 的密度，以及解释 Box–Muller 的 Jacobian 和独立性，参见[第四讲随机变量图解专项](2026-random-variate-transforms-visual.md)。
 
+> <strong>第四讲后半部分计算专项</strong>：卷积法、接受—拒绝法、Gamma 的 GB/GS 算法及经验分布抽样，附八道逐步计算题和三张结果图。[进入完整图解练习](2026-convolution-rejection-empirical-visual.md)。
+
 ## 五、随机变量生成：逆变法、取舍法和分布证明
 
 ### 5.1 从均匀随机数生成目标分布
