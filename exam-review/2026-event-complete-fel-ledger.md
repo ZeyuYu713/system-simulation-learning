@@ -1,6 +1,6 @@
 # 期末手工仿真加练｜三种结构的完整 FEL 账本与指标核查
 
-[返回总目录](../README.md) · [手工事件调度专题](../manual-event-simulation/README.md) · [单机截尾详解](../manual-event-simulation/02-single-machine-five-parts.md) · [双机并联原练习](2026-event-drill-parallel.md) · [双机串联原练习](2026-event-drill-tandem.md)
+[返回总目录](../README.md) · [含并联完整大题的 A 卷](2026-mock-a-event.md) · [手工事件调度专题](../manual-event-simulation/README.md) · [单机截尾详解](../manual-event-simulation/02-single-machine-five-parts.md) · [双机并联原练习](2026-event-drill-parallel.md) · [双机串联原练习](2026-event-drill-tandem.md)
 
 这份练习专门对齐 2026 年 11 月 9 日手工仿真课堂的答题形式：<strong>每推进到一个事件时刻，要明确 TNOW、刚执行的事件、处理后系统状态，以及按绝对时刻升序排列的完整未来事件表 FEL。</strong> 每行是本时刻处理结束后独立的一张快照，不是只写“新插入了哪个事件”。表中的数据复用本仓库此前的三道独立练习，与课堂录音示范的事件规则一致，但不冒充录音板书原题。
 
