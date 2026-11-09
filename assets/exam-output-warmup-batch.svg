@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 565" role="img" aria-labelledby="title desc">
+  <title id="title">Warm-up deletion from a smoothed trajectory and subsequent batch formation</title>
+  <desc id="desc">Left example: cross-replication means increase from 2 to about 12, with a candidate warmup deletion after observation 7. Right separate example: discard first 4 observations from 20, then group remaining 16 into four consecutive batches each of length 4, with means 4,5,7,8.</desc>
+  <rect width="1140" height="565" rx="22" fill="#f6f8fb"/>
+  <text x="48" y="53" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#16314b">Steady-state output: deletion then batching</text>
+  <text x="48" y="83" font-family="Arial, sans-serif" font-size="17" fill="#5e768b">The two panels illustrate separate exercises with different observation sequences.</text>
+  <rect x="32" y="108" width="526" height="406" rx="16" fill="#fff" stroke="#dce5ef"/>
+  <rect x="576" y="108" width="531" height="406" rx="16" fill="#fff" stroke="#dce5ef"/>
+  <text x="61" y="150" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#244059">Warm-up trend: smoothed across runs</text>
+  <text x="603" y="150" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#244059">One long run: discard 4, batch 16</text>
+  <rect x="90" y="176" width="247" height="304" fill="#ebeff3" opacity="0.9"/>
+  <g stroke="#e4edf4" stroke-width="1.4"><line x1="90" y1="216" x2="522" y2="216"/><line x1="90" y1="304" x2="522" y2="304"/><line x1="90" y1="392" x2="522" y2="392"/><line x1="90" y1="480" x2="522" y2="480"/></g>
+  <line x1="90" y1="174" x2="90" y2="480" stroke="#546e87" stroke-width="2"/>
+  <line x1="90" y1="480" x2="522" y2="480" stroke="#546e87" stroke-width="2"/>
+  <line x1="90" y1="216" x2="522" y2="216" stroke="#8fb0a4" stroke-width="2" stroke-dasharray="7 5"/>
+  <line x1="337" y1="175" x2="337" y2="480" stroke="#b17a5b" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="101" y="190" font-family="Arial, sans-serif" font-size="16" fill="#6b7888">candidate delete: l ≈ 7</text>
+  <text x="469" y="206" font-family="Arial, sans-serif" font-size="15" fill="#6a9689">≈12</text>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#728599"><text x="62" y="221">12</text><text x="68" y="309">8</text><text x="68" y="397">4</text><text x="68" y="484">0</text><text x="86" y="500">1</text><text x="308" y="500">7</text><text x="497" y="500">12</text></g>
+  <polyline points="90,436 128,392 166,348 204,304 242,260 280,238 318,220.4 356,213.8 394,218.2 432,213.8 470,216 508,211.6" fill="none" stroke="#97a9bb" stroke-width="2.5" stroke-dasharray="4 5"/>
+  <g fill="#97a9bb"><circle cx="90" cy="436" r="4"/><circle cx="128" cy="392" r="4"/><circle cx="166" cy="348" r="4"/><circle cx="204" cy="304" r="4"/><circle cx="242" cy="260" r="4"/><circle cx="280" cy="238" r="4"/><circle cx="318" cy="220.4" r="4"/><circle cx="356" cy="213.8" r="4"/><circle cx="394" cy="218.2" r="4"/><circle cx="432" cy="213.8" r="4"/><circle cx="470" cy="216" r="4"/><circle cx="508" cy="211.6" r="4"/></g>
+  <polyline points="128,392 166,348 204,304 242,267.3 280,239.5 318,224.1 356,217.5 394,215.3 432,216 470,213.8" fill="none" stroke="#217c9c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="61" y="539" font-family="Arial, sans-serif" font-size="17" fill="#5e7589">Blue: 3-point moving average; gray: raw cross-run means</text>
+  <text x="604" y="207" font-family="Arial, sans-serif" font-size="18" fill="#577084">20 original observations</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle" font-size="16" font-weight="700">
+    <rect x="618" y="235" width="82" height="69" rx="7" fill="#e9edf1" stroke="#cad6e0"/><text x="659" y="265" fill="#667b8e">Delete</text><text x="659" y="287" fill="#667b8e">1–4</text>
+    <rect x="704" y="235" width="88" height="69" rx="7" fill="#d5ebf5" stroke="#afccdd"/><text x="748" y="265" fill="#266987">Batch 1</text><text x="748" y="287" fill="#266987">5–8</text>
+    <rect x="796" y="235" width="88" height="69" rx="7" fill="#d9eee8" stroke="#b6d8d0"/><text x="840" y="265" fill="#287e6f">Batch 2</text><text x="840" y="287" fill="#287e6f">9–12</text>
+    <rect x="888" y="235" width="88" height="69" rx="7" fill="#e6e5f5" stroke="#cfcae5"/><text x="932" y="265" fill="#7169a0">Batch 3</text><text x="932" y="287" fill="#7169a0">13–16</text>
+    <rect x="980" y="235" width="88" height="69" rx="7" fill="#f5e7d7" stroke="#e8cbae"/><text x="1024" y="265" fill="#ad7d45">Batch 4</text><text x="1024" y="287" fill="#ad7d45">17–20</text>
+  </g>
+  <line x1="617" y1="455" x2="1068" y2="455" stroke="#60768b" stroke-width="2"/>
+  <g><rect x="714" y="387" width="69" height="68" rx="3" fill="#5e9ebc"/><rect x="806" y="370" width="69" height="85" rx="3" fill="#55a695"/><rect x="898" y="336" width="69" height="119" rx="3" fill="#8e88ba"/><rect x="990" y="319" width="69" height="136" rx="3" fill="#cf9f65"/></g>
+  <g font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle"><text x="748" y="376" fill="#357f9e">mean 4</text><text x="840" y="359" fill="#288c79">mean 5</text><text x="932" y="325" fill="#7169a0">mean 7</text><text x="1024" y="351" fill="#fff">mean 8</text></g>
+  <text x="612" y="539" font-family="Arial, sans-serif" font-size="17" fill="#5e7589">Four batch means become the statistical observations</text>
+</svg>
