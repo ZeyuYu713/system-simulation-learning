@@ -14,6 +14,8 @@
 
 > <strong>新增｜第四讲卷积与取舍法专项</strong>：逐步计算 Erlang 卷积、接受—拒绝法覆盖区域、Gamma 的 GB/GS 两种抽样，以及连续与离散经验分布，配三张精确结果图。<strong>[进入八道完整计算题](exam-review/2026-convolution-rejection-empirical-visual.md)</strong>。
 
+> <strong>新增｜第五讲输入分析图解专项</strong>：用 10 道完整例题及四张结果图练习自相关、连续密度与离散概率、指数与正态分布 MLE、卡方和 K–S 拟合检验。<strong>[进入第五讲专项练习](exam-review/2026-input-analysis-visual.md)</strong>。
+
 > <strong>新增｜课堂式事件结果图解练习</strong>：补上此前已讲的六顾客并联 M1 优先练习，以及新的四零件 M1→运输→M2 串联练习。每题均有完整事件表、设备加工甘特图、队长和机器忙闲阶梯结果图。<strong>[并联图解](exam-review/2026-event-drill-parallel.md)</strong> · <strong>[串联图解](exam-review/2026-event-drill-tandem.md)</strong>。
 
 > <strong>八讲覆盖检查与计算专项</strong>：按第一至第八讲核对主干知识，并提供 16 道重新设计的题目、逐步计算及常见错误。<strong>[查看覆盖检查](exam-review/2026-coverage-audit.md)</strong> · <strong>[开始计算题训练](exam-review/2026-calculation-workbook.md)</strong>。
@@ -34,7 +36,7 @@
 | 专题：项目工序与 Arena | 工序先后关系、并行与汇合、资源约束、Arena 建模流程、验证 | [原有专题笔记](notes/03-arena-project-process.md) |
 | 04 随机变量的生成（原课件第四讲） | 逆变法、函数变换与 Box–Muller、近似法、卷积法、Gamma 的 GB/GS 取舍法、连续和离散经验分布抽样 | [完整笔记](notes/04-random-variate-generation.md) · [分布变换图解证明](exam-review/2026-random-variate-transforms-visual.md) · [卷积与取舍法图解](exam-review/2026-convolution-rejection-empirical-visual.md) |
 | 专题：输出分析与实验设计 | 终止型与稳态仿真、预热期、批均值、置信区间、共同随机数、方差缩减 | [原有专题笔记](notes/04-output-analysis.md) |
-| 05 仿真输入分析（原课件第五讲） | 数据采集与独立性、直方图和离散线图、极大似然估计、卡方及 K–S 拟合检验、无数据时的敏感性分析 | [完整笔记](notes/05-simulation-input-analysis.md) |
+| 05 仿真输入分析（原课件第五讲） | 数据采集与独立性、直方图和离散线图、极大似然估计、卡方及 K–S 拟合检验、无数据时的敏感性分析 | [完整笔记](notes/05-simulation-input-analysis.md) · [相关图、MLE 与拟合检验专项](exam-review/2026-input-analysis-visual.md) |
 | 专题：输入建模 | 观测数据、泊松到达、指数间隔、三角分布、拟合与敏感性分析 | [原有专题笔记](notes/05-input-modeling.md) |
 | 06 仿真输出分析（原课件第六讲） | 终态仿真、置信区间、规定精度、稳态处理、重复—删除法、批平均值法、三种方差衰减技术 | [完整笔记](notes/06-output-analysis.md) |
 | 专题：排队理论 | Little 定律、M/M/1、M/M/c、Erlang C、拥塞与稳定条件 | [原有专题笔记](notes/06-queueing-theory.md) · [拥塞曲线](assets/mm1-congestion.svg) |
