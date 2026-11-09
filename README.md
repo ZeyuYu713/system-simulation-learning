@@ -4,6 +4,8 @@
 
 > <strong>重点专题｜手工离散事件仿真</strong>：从四个零件、M1→运输→M2 的串联加工题出发，逐时刻填写 TNOW/FEL、画机器时间线与队长阶梯图，并区分 `t=10` 截面与全部完工。<strong>[进入零件加工专题](manual-event-simulation/README.md)</strong>。
 
+> <strong>期末必练｜三种手工事件调度完整 FEL 表</strong>：逐时刻列单机、双机并联、双机串联的完整事件表，并用每段时间的队长与忙闲面积反核排队时间、系统逗留和机器利用率。<strong>[打开三种结构逐时刻 FEL 账本](exam-review/2026-event-complete-fel-ledger.md)</strong>。
+
 > <strong>期末复习专题｜课堂录音串讲</strong>：将 2026-11-09 两段课堂录音整理为复习范围依据、易错概念、完整手工事件表、满周期随机数发生器、分布变换证明以及置信区间试算法。<strong>[进入期末复习章节](exam-review/2026-final-review.md)</strong>。
 
 > <strong>新增｜LCG 满周期构造与前十项专项</strong>：以课堂讨论的 `m=3900` 为模数，独立选取合法参数，逐项列出商与余数，比较两个错误参数的实际周期，并附 `m=120` 自测题。<strong>[进入 LCG 图表与计算详解](exam-review/2026-lcg-full-period-drill.md)</strong>。
