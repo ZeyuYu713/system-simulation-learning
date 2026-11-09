@@ -1,6 +1,6 @@
 # 期末重点加练｜独立重复的统计单位、置信区间与试算法
 
-[返回总目录](../README.md) · [第六讲输出分析图解 08](2026-output-analysis-visual.md) · [课堂录音期末总纲](2026-final-review.md) · [第六讲笔记](../notes/06-output-analysis.md)
+[返回总目录](../README.md) · [输出分析完整大题 B 卷](2026-mock-b-output.md) · [第六讲输出分析图解 08](2026-output-analysis-visual.md) · [课堂录音期末总纲](2026-final-review.md) · [第六讲笔记](../notes/06-output-analysis.md)
 
 2026 年 11 月 9 日的期末复习串讲对输出分析有两项特别明确的要求：<strong>先把每次独立运行的观测汇总为一个运行均值；试算法要给出首次达标次数 n 及相邻未达标次数 n−1 的半长。</strong> 下面围绕这两条要求安排八道题，题目下直接列答案，再给完整计算。所有数字均为新编练习；文中的四张图与相应算式使用同一组数据。
 
