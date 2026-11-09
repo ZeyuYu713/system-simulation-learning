@@ -6,6 +6,8 @@
 
 > <strong>期末复习专题｜课堂录音串讲</strong>：将 2026-11-09 两段课堂录音整理为复习范围依据、易错概念、完整手工事件表、满周期随机数发生器、分布变换证明以及置信区间试算法。<strong>[进入期末复习章节](exam-review/2026-final-review.md)</strong>。
 
+> <strong>新增｜课堂式事件结果图解练习</strong>：补上此前已讲的六顾客并联 M1 优先练习，以及新的四零件 M1→运输→M2 串联练习。每题均有完整事件表、设备加工甘特图、队长和机器忙闲阶梯结果图。<strong>[并联图解](exam-review/2026-event-drill-parallel.md)</strong> · <strong>[串联图解](exam-review/2026-event-drill-tandem.md)</strong>。
+
 > <strong>八讲覆盖检查与计算专项</strong>：按第一至第八讲核对主干知识，并提供 16 道重新设计的题目、逐步计算及常见错误。<strong>[查看覆盖检查](exam-review/2026-coverage-audit.md)</strong> · <strong>[开始计算题训练](exam-review/2026-calculation-workbook.md)</strong>。
 
 ## 学习地图
