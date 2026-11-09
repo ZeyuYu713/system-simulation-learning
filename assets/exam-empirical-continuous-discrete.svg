@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1110 650" role="img" aria-labelledby="title desc">
+  <title id="title">连续经验分布的线性插值 CDF 与离散经验分布阶梯 CDF</title>
+  <desc id="desc">左图按数据2、4、7、9取累计位置0、三分之一、三分之二、1并线性插值，u=0.5得到5.5。右图离散需求10、20、30对应概率0.2、0.5、0.3，累计阶梯0.2、0.7、1；u=0.62选择需求20。</desc>
+  <rect width="1110" height="650" rx="22" fill="#f8fafc"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <text x="44" y="53" font-size="28" font-weight="700" fill="#163b59">经验分布逆变｜连续插值与离散跳跃的区别</text>
+    <text x="44" y="84" font-size="16" fill="#5d768c">同样抽到一个 U(0,1)，连续观测值可在相邻点之间插值，离散变量必须输出允许的取值</text>
+  </g>
+  <rect x="31" y="113" width="518" height="475" rx="15" fill="#ffffff" stroke="#dce7ee"/>
+  <rect x="561" y="113" width="518" height="475" rx="15" fill="#ffffff" stroke="#dce7ee"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="#31536f" font-size="19" font-weight="700">
+    <text x="62" y="155">连续经验分布：四个排序观测值</text>
+    <text x="591" y="155">离散经验分布：需求只能是三档</text>
+  </g>
+  <g stroke="#e4ebf0" stroke-width="1">
+    <path d="M140 400H500 M140 300H500 M140 200H500"/>
+    <path d="M242.86 200V500 M397.14 200V500"/>
+    <path d="M620 440H1000 M620 350H1000 M620 290H1000 M620 200H1000"/>
+    <path d="M680 200V500 M820 200V500 M960 200V500"/>
+  </g>
+  <path d="M140 188V500H525" fill="none" stroke="#5b7285" stroke-width="2.2"/>
+  <path d="M620 188V500H1019" fill="none" stroke="#5b7285" stroke-width="2.2"/>
+  <!-- Continuous interpolating CDF: (2,0), (4,1/3), (7,2/3), (9,1). -->
+  <path d="M140 500L242.86 400L397.14 300L500 200" fill="none" stroke="#286eb4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#286eb4" stroke="#fff" stroke-width="2.3">
+    <circle cx="140" cy="500" r="6"/><circle cx="242.86" cy="400" r="6"/>
+    <circle cx="397.14" cy="300" r="6"/><circle cx="500" cy="200" r="6"/>
+  </g>
+  <path d="M140 350H320V500" fill="none" stroke="#dc703c" stroke-width="2.5" stroke-dasharray="8 6"/>
+  <circle cx="320" cy="350" r="8" fill="#dc703c" stroke="#fff" stroke-width="2.7"/>
+  <!-- Discrete step CDF with jumps at demand 10,20,30. -->
+  <path d="M620 500H680V440H820V290H960V200H1000" fill="none" stroke="#168b80" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M620 314H820V500" fill="none" stroke="#dc703c" stroke-width="2.5" stroke-dasharray="8 6"/>
+  <circle cx="820" cy="314" r="8" fill="#dc703c" stroke="#fff" stroke-width="2.7"/>
+  <g fill="#168b80" stroke="#ffffff" stroke-width="2.1">
+    <circle cx="680" cy="440" r="5.4"/><circle cx="820" cy="290" r="5.4"/><circle cx="960" cy="200" r="5.4"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#60788a" font-size="15">
+    <text x="128" y="505" text-anchor="end">0</text><text x="128" y="405" text-anchor="end">1/3</text>
+    <text x="128" y="305" text-anchor="end">2/3</text><text x="128" y="205" text-anchor="end">1</text>
+    <text x="140" y="524" text-anchor="middle">2</text><text x="242.86" y="524" text-anchor="middle">4</text>
+    <text x="397.14" y="524" text-anchor="middle">7</text><text x="500" y="524" text-anchor="middle">9</text>
+    <text x="608" y="505" text-anchor="end">0</text><text x="608" y="445" text-anchor="end">0.2</text>
+    <text x="608" y="355" text-anchor="end">0.5</text><text x="608" y="295" text-anchor="end">0.7</text>
+    <text x="608" y="205" text-anchor="end">1</text>
+    <text x="680" y="524" text-anchor="middle">10</text><text x="820" y="524" text-anchor="middle">20</text>
+    <text x="960" y="524" text-anchor="middle">30</text>
+    <text x="520" y="542">x</text><text x="1010" y="542">x</text>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#bd6032">
+    <text x="328" y="336">u=0.50</text><text x="329" y="554">x=5.5</text>
+    <text x="826" y="307">u=0.62</text><text x="827" y="554">x=20</text>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#49687f">
+    <text x="71" y="616">左：F(xᵢ)=(i−1)/(n−1)，再线性插值</text>
+    <text x="597" y="616">右：概率质量为 0.2、0.5、0.3，取值不插值</text>
+  </g>
+</svg>
