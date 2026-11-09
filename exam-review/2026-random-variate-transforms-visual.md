@@ -1,6 +1,6 @@
 # 随机变量专项练习 05｜逆变法、函数变换与 Box–Muller（图解与证明）
 
-[返回总目录](../README.md) · [上一题：随机数检验图解](2026-randomness-tests-visual.md) · [第四讲原课件笔记](../notes/04-random-variate-generation.md) · [期末复习总章](2026-final-review.md)
+[返回总目录](../README.md) · [上一题：随机数检验图解](2026-randomness-tests-visual.md) · [第四讲原课件笔记](../notes/04-random-variate-generation.md) · [下一题：卷积与取舍法](2026-convolution-rejection-empirical-visual.md) · [期末复习总章](2026-final-review.md)
 
 第三讲解决的是“如何产生一串近似独立、均匀的随机数”；第四讲进一步解决“如何把均匀数变成仿真真正需要的加工时长、到达间隔与误差分布”。从已知分布推出生成公式，与从已知函数推出新分布，是两种方向相反但相关的计算。
 
