@@ -6,6 +6,8 @@
 
 > <strong>逆变与密度证明图解专项</strong>：把第四讲前半部分展开成六道逐题计算和证明，包含分段三角 CDF、`Y=U²` 的 CDF/PDF、非单调多分支和 Box–Muller 极坐标图。[进入第四讲图解题集](../exam-review/2026-random-variate-transforms-visual.md)。
 
+> <strong>卷积、取舍法与经验分布图解专项</strong>：八道题依次计算 Erlang 三段等待时间、覆盖密度与接受概率、Gamma 的 GB/GS 分支，以及连续插值与离散抽样。配有时间轴、接受区域、经验 CDF 三张结果图。[进入第四讲后半部分图解题集](../exam-review/2026-convolution-rejection-empirical-visual.md)。
+
 ## 学习本讲之前：随机数和随机变量不是一回事
 
 上一讲研究如何得到质量合格的 `U(0,1)` 伪随机数序列。仿真真正需要的输入，往往是服从其他分布的随机变量，例如指数分布的故障间隔、三角分布的工序时间、正态分布的测量误差、离散分布的需求量。
