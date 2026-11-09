@@ -20,7 +20,7 @@
 
 > <strong>新增｜第七讲验证与确认图解专项</strong>：十道题、四张课件式结果图，完整演算事件核验、单样本与配对 t 检验，区分统计不显著与业务可接受误差。<strong>[进入第七讲专项练习 09](exam-review/2026-model-verification-validation-visual.md)</strong>。
 
-> <strong>新增｜课堂式事件结果图解练习</strong>：补上此前已讲的六顾客并联 M1 优先练习，以及新的四零件 M1→运输→M2 串联练习。每题均有完整事件表、设备加工甘特图、队长和机器忙闲阶梯结果图。<strong>[并联图解](exam-review/2026-event-drill-parallel.md)</strong> · <strong>[串联图解](exam-review/2026-event-drill-tandem.md)</strong>。
+> <strong>新增｜课堂式事件结果图解练习</strong>：补上此前已讲的六顾客并联 M1 优先练习，以及新的四零件 M1→运输→M2 串联练习。每题均有完整事件表、设备加工甘特图、队长和机器忙闲阶梯结果图，并新增<strong>逐人等待／系统逗留时间图</strong>，可用队长面积、加工总时长和各实体时间做三重核查。<strong>[并联图解](exam-review/2026-event-drill-parallel.md)</strong> · <strong>[串联图解](exam-review/2026-event-drill-tandem.md)</strong>。
 
 > <strong>八讲覆盖检查与计算专项</strong>：按第一至第八讲核对主干知识，并提供 16 道重新设计的题目、逐步计算及常见错误。<strong>[查看覆盖检查](exam-review/2026-coverage-audit.md)</strong> · <strong>[开始计算题训练](exam-review/2026-calculation-workbook.md)</strong>。
 
