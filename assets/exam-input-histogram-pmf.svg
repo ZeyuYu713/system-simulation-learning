@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 570" role="img" aria-labelledby="title desc">
+  <title id="title">Continuous density histogram and discrete probability mass diagram</title>
+  <desc id="desc">Left: 40 observations, bins of width 2 with frequencies 4,12,16,8, density heights 0.05,0.15,0.20,0.10. Right: discrete counts 0 to 4 with masses 0.20,0.25,0.30,0.175,0.075.</desc>
+  <rect width="1140" height="570" rx="22" fill="#f6f8fb"/>
+  <text x="54" y="53" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#152a40">Frequency is not density</text>
+  <text x="54" y="82" font-family="Arial, sans-serif" font-size="17" fill="#5b7289">Same sample size n = 40; different meanings of the vertical axis</text>
+  <rect x="34" y="106" width="522" height="414" rx="16" fill="#fff" stroke="#dce5ef"/>
+  <rect x="574" y="106" width="532" height="414" rx="16" fill="#fff" stroke="#dce5ef"/>
+  <text x="64" y="151" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1a3550">Continuous: density histogram</text>
+  <text x="605" y="151" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1a3550">Discrete: probability mass</text>
+  <g stroke="#e4ecf4" stroke-width="1.4">
+    <line x1="130" y1="185" x2="501" y2="185"/><line x1="130" y1="323.5" x2="501" y2="323.5"/><line x1="130" y1="462" x2="501" y2="462"/>
+    <line x1="675" y1="178" x2="1020" y2="178"/><line x1="675" y1="272.7" x2="1020" y2="272.7"/><line x1="675" y1="367.3" x2="1020" y2="367.3"/><line x1="675" y1="462" x2="1020" y2="462"/>
+  </g>
+  <g stroke="#587189" stroke-width="2"><line x1="130" y1="178" x2="130" y2="462"/><line x1="130" y1="462" x2="501" y2="462"/><line x1="675" y1="170" x2="675" y2="462"/><line x1="675" y1="462" x2="1020" y2="462"/></g>
+  <g fill="#6c8094" font-family="Arial, sans-serif" font-size="15"><text x="77" y="190">0.20</text><text x="77" y="329">0.10</text><text x="112" y="467">0</text><text x="630" y="183">0.30</text><text x="630" y="278">0.20</text><text x="630" y="373">0.10</text><text x="655" y="467">0</text></g>
+  <g fill="#3a87b5" fill-opacity="0.82" stroke="#fff" stroke-width="3">
+    <rect x="130" y="392.75" width="92" height="69.25"/>
+    <rect x="222" y="254.25" width="92" height="207.75"/>
+    <rect x="314" y="185" width="92" height="277"/>
+    <rect x="406" y="323.5" width="92" height="138.5"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-weight="700" font-size="17" text-anchor="middle" fill="#1e628d"><text x="176" y="384">0.05</text><text x="268" y="245">0.15</text><text x="360" y="176">0.20</text><text x="452" y="315">0.10</text></g>
+  <g font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#60778e"><text x="130" y="489">0</text><text x="222" y="489">2</text><text x="314" y="489">4</text><text x="406" y="489">6</text><text x="498" y="489">8</text></g>
+  <g stroke="#278e89" stroke-width="6" stroke-linecap="round">
+    <line x1="706" y1="462" x2="706" y2="272.7"/><line x1="779" y1="462" x2="779" y2="225.3"/><line x1="852" y1="462" x2="852" y2="178"/><line x1="925" y1="462" x2="925" y2="296.3"/><line x1="998" y1="462" x2="998" y2="391"/>
+  </g>
+  <g fill="#278e89" stroke="white" stroke-width="3"><circle cx="706" cy="272.7" r="7"/><circle cx="779" cy="225.3" r="7"/><circle cx="852" cy="178" r="7"/><circle cx="925" cy="296.3" r="7"/><circle cx="998" cy="391" r="7"/></g>
+  <g font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#177d7a" text-anchor="middle"><text x="706" y="259">0.200</text><text x="779" y="211">0.250</text><text x="852" y="164">0.300</text><text x="925" y="283">0.175</text><text x="998" y="377">0.075</text></g>
+  <g font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#60778e"><text x="706" y="489">0</text><text x="779" y="489">1</text><text x="852" y="489">2</text><text x="925" y="489">3</text><text x="998" y="489">4</text></g>
+  <text x="75" y="548" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#28638c">Each area = relative frequency; sum of areas = 1</text>
+  <text x="612" y="548" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1d807a">Each height = point probability; sum = 1</text>
+</svg>
