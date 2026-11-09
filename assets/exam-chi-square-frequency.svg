@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 610" role="img" aria-labelledby="title desc">
+  <title id="title">卡方均匀性检验实际频数与理论频数对比</title>
+  <desc id="desc">样本量40，四组的实际频数8、12、11、9，均匀原假设下各组期望频数10，卡方统计量1，自由度3。</desc>
+  <rect width="1000" height="610" rx="18" fill="#fafcfe"/>
+  <text x="42" y="39" font-family="Arial, Microsoft YaHei, sans-serif" font-size="24" font-weight="700" fill="#18384f">卡方检验：先比较每一组的实际频数与理论频数</text>
+  <text x="42" y="67" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#607c8c">n = 40，四个等长区间；蓝色为实际频数，橙色虚线为均匀假设下每组的期望 10 次</text>
+  <g stroke="#e3ebf1" stroke-width="1">
+    <path d="M140 435 H876 M140 395 H876 M140 355 H876 M140 315 H876 M140 275 H876 M140 235 H876 M140 195 H876 M140 155 H876"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#567384" text-anchor="end">
+    <text x="129" y="440">0</text><text x="129" y="400">2</text><text x="129" y="360">4</text>
+    <text x="129" y="320">6</text><text x="129" y="280">8</text><text x="129" y="240">10</text>
+    <text x="129" y="200">12</text><text x="129" y="160">14</text>
+  </g>
+  <line x1="140" y1="435" x2="876" y2="435" stroke="#738b9b" stroke-width="2"/>
+  <g fill="#3b70ba" opacity="0.88">
+    <rect x="197" y="275" width="86" height="160" rx="4"/>
+    <rect x="372" y="195" width="86" height="240" rx="4"/>
+    <rect x="547" y="215" width="86" height="220" rx="4"/>
+    <rect x="722" y="255" width="86" height="180" rx="4"/>
+  </g>
+  <line x1="141" y1="235" x2="868" y2="235" stroke="#d18b3c" stroke-width="3.5" stroke-dasharray="10 7"/>
+  <g font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#204769" text-anchor="middle">
+    <text x="240" y="263">8</text><text x="415" y="182">12</text><text x="590" y="202">11</text><text x="765" y="242">9</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#4b677a" text-anchor="middle">
+    <text x="240" y="464">[0,0.25)</text><text x="415" y="464">[0.25,0.50)</text>
+    <text x="590" y="464">[0.50,0.75)</text><text x="765" y="464">[0.75,1)</text>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#536c7c">
+    <rect x="230" y="498" width="17" height="17" rx="2" fill="#3b70ba"/><text x="258" y="512">实际观察次数 O</text>
+    <line x1="494" y1="507" x2="538" y2="507" stroke="#d18b3c" stroke-width="3.5" stroke-dasharray="9 5"/><text x="550" y="512">理论期望次数 E=10</text>
+  </g>
+  <rect x="190" y="544" width="650" height="47" rx="9" fill="#edf5f8" stroke="#d2e2ea"/>
+  <text x="515" y="572" font-family="Arial, Microsoft YaHei, sans-serif" text-anchor="middle" font-size="17" font-weight="700" fill="#274c66">χ² = 0.4 + 0.4 + 0.1 + 0.1 = 1.0；df = 3；1.0 &lt; 7.815</text>
+</svg>
