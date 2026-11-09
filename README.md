@@ -4,10 +4,13 @@
 
 > <strong>重点专题｜手工离散事件仿真</strong>：从四个零件、M1→运输→M2 的串联加工题出发，逐时刻填写 TNOW/FEL、画机器时间线与队长阶梯图，并区分 `t=10` 截面与全部完工。<strong>[进入零件加工专题](manual-event-simulation/README.md)</strong>。
 
+> <strong>期末复习专题｜课堂录音串讲</strong>：将 2026-11-09 两段课堂录音整理为复习范围依据、易错概念、完整手工事件表、满周期随机数发生器、分布变换证明以及置信区间试算法。<strong>[进入期末复习章节](exam-review/2026-final-review.md)</strong>。
+
 ## 学习地图
 
 | 模块 | 知识重点 | 学习资料 |
 | --- | --- | --- |
+| <strong>期末专题：课堂串讲与计算题训练</strong> | 课堂强调与证据边界、手工事件调度、LCG 构造、分布证明、试算法及八讲查漏 | <strong>[完整期末复习章节](exam-review/2026-final-review.md)</strong> |
 | <strong>重点专题：零件加工事件调度</strong> | 基础模型、完整 FEL 推演、两机串联与单机截尾、队长面积、利用率及变式 | <strong>[专题主页](manual-event-simulation/README.md)</strong> · [概念与状态](manual-event-simulation/00-concepts-and-rules.md) · [FEL 明细](manual-event-simulation/03-fel-ledger.md) · [指标详解](manual-event-simulation/04-statistics-and-variants.md) |
 | 01 仿真概述（原课件第一讲） | 项目管理与银行引例、仿真定义、优缺点与适用条件、模型分类、实施流程、发展及应用 | [完整笔记](notes/01-simulation-overview.md) |
 | 专题：随机数与分布变换 | 系统基本概念、线性同余法、均匀性与独立性检验、随机变量生成 | [原有综合笔记](notes/01-random-numbers.md) |
