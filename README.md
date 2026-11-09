@@ -18,6 +18,8 @@
 
 > <strong>新增｜第六讲输出分析图解专项</strong>：以九道完整计算题和四张结果图练习置信区间、规定精度试算、预热与批均值、公共随机数与控制变量。[进入输出分析专项 08](exam-review/2026-output-analysis-visual.md)。
 
+> <strong>期末计算加练｜独立重复与规定精度试算法</strong>：8 道题、四张结果图，专门核查运行均值的标准差、正确与错误的 95% 区间、相邻次数 24/25 的首次达标，以及补做后的重新估计。<strong>[进入输出分析重点加练](exam-review/2026-output-precision-priority-drill.md)</strong>。
+
 > <strong>新增｜第七讲验证与确认图解专项</strong>：十道题、四张课件式结果图，完整演算事件核验、单样本与配对 t 检验，区分统计不显著与业务可接受误差。<strong>[进入第七讲专项练习 09](exam-review/2026-model-verification-validation-visual.md)</strong>。
 
 > <strong>新增｜第八讲仿真优化图解专项</strong>：10 道题、四张可核算的结果图，讲清 M/M/1 成本最优、模式搜索与被拒绝的探测点、响应面拟合以及中心差分和 SPSA 的评价次数。课堂复习串讲未将优化算法列为明确的大计算题，建议作为概念巩固与拓展。<strong>[进入第八讲专项练习 10](exam-review/2026-simulation-optimization-visual.md)</strong>。
