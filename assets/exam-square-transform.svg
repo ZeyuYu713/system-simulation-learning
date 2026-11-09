@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 630" role="img" aria-labelledby="title desc">
+  <title id="title">标准均匀变量 U 平方之后的 CDF 和 PDF 结果图</title>
+  <desc id="desc">U 在零到一均匀分布，Y=U²。左图 F_Y(y)=根号y，与均匀分布CDF F(y)=y对照，在y=0.25时累计概率为0.5。右图概率密度 f_Y(y)=1/(2根号y)，在零附近上升，积分为一。</desc>
+  <rect width="1100" height="630" rx="22" fill="#f8fafc"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <text x="52" y="55" font-size="28" fill="#173957" font-weight="700">函数变换｜U ~ Uniform(0,1)，Y = U²</text>
+    <text x="52" y="86" font-size="16" fill="#687f91">平方后的结果并非均匀分布。CDF = √y，PDF = 1/(2√y)，支持集 0 &lt; y &lt; 1</text>
+  </g>
+  <rect x="36" y="120" width="511" height="440" rx="14" fill="#ffffff" stroke="#e0e8ef"/>
+  <rect x="560" y="120" width="506" height="440" rx="14" fill="#ffffff" stroke="#e0e8ef"/>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#284c69" font-weight="700">
+    <text x="74" y="164">CDF: F_Y(y) = √y</text>
+    <text x="597" y="164">PDF: f_Y(y) = 1/(2√y)</text>
+  </g>
+  <g stroke="#e9edf2" stroke-width="1">
+    <path d="M160 387.5H490 M160 315H490 M160 242.5H490 M160 170H490"/>
+    <path d="M242.5 170V460 M325 170V460 M407.5 170V460 M490 170V460"/>
+    <path d="M675 390H1005 M675 320H1005 M675 250H1005 M675 180H1005"/>
+    <path d="M757.5 180V460 M840 180V460 M922.5 180V460 M1005 180V460"/>
+  </g>
+  <path d="M160 164V460H501" fill="none" stroke="#526a7d" stroke-width="2.2"/>
+  <path d="M675 164V460H1018" fill="none" stroke="#526a7d" stroke-width="2.2"/>
+  <path d="M160 460L490 170" fill="none" stroke="#9daaba" stroke-width="2.3" stroke-dasharray="8 7"/>
+  <polyline points="160,460 176.5,395.2 193,368.3 209.5,347.7 226,330.3 242.5,315 259,301.2 275.5,288.4 292,276.6 308.5,265.5 325,254.9 341.5,244.9 358,235.4 374.5,226.2 391,217.4 407.5,208.9 424,200.6 440.5,192.6 457,184.9 473.5,177.3 490,170" fill="none" stroke="#2a72bb" stroke-width="4.1" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M160 315H242.5V460" fill="none" stroke="#d76c36" stroke-dasharray="7 6" stroke-width="2.7"/>
+  <circle cx="242.5" cy="315" r="7" fill="#d76c36" stroke="#ffffff" stroke-width="2.5"/>
+  <polyline points="681.6,212.5 683.2,238.6 684.9,257.9 688.2,285 691.5,303.5 699.8,332.2 708,349.3 724.5,369.6 741,381.7 774,396.1 807,404.7 840,410.5 889.5,416.6 939,420.9 1005,425" fill="none" stroke="#168c82" stroke-width="4.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M757.5 390V460" stroke="#d76c36" stroke-width="2.5" stroke-dasharray="7 6"/>
+  <circle cx="757.5" cy="390" r="6" fill="#d76c36" stroke="#ffffff" stroke-width="2.2"/>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#61788c">
+    <text x="149" y="465" text-anchor="end">0</text><text x="149" y="320" text-anchor="end">0.5</text><text x="149" y="175" text-anchor="end">1</text>
+    <text x="160" y="482" text-anchor="middle">0</text><text x="242.5" y="482" text-anchor="middle">0.25</text><text x="325" y="482" text-anchor="middle">0.5</text><text x="490" y="482" text-anchor="middle">1</text>
+    <text x="664" y="463" text-anchor="end">0</text><text x="664" y="395" text-anchor="end">1</text><text x="664" y="325" text-anchor="end">2</text><text x="664" y="255" text-anchor="end">3</text>
+    <text x="675" y="482" text-anchor="middle">0</text><text x="757.5" y="482" text-anchor="middle">0.25</text><text x="840" y="482" text-anchor="middle">0.5</text><text x="1005" y="482" text-anchor="middle">1</text>
+    <text x="495" y="505">y</text><text x="1010" y="505">y</text>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <text x="282" y="306" fill="#c26332" font-size="16" font-weight="700">F(0.25)=0.5</text>
+    <text x="765" y="373" fill="#b75f32" font-size="15" font-weight="700">f(0.25)=1</text>
+    <path d="M74 519H118" stroke="#9daaba" stroke-width="2.3" stroke-dasharray="8 7"/>
+    <text x="128" y="524" fill="#667e8e" font-size="13">均匀分布 CDF（仅供比较）</text>
+    <path d="M595 519H639" stroke="#168c82" stroke-width="3"/>
+    <text x="649" y="524" fill="#667e8e" font-size="13">面积积分等于 1；0 附近密度可很高</text>
+    <text x="60" y="600" fill="#4c677b" font-size="17">结论：P(Y ≤ 0.25) = 0.50，而不是 0.25。概率由密度曲线下的面积决定。</text>
+  </g>
+</svg>
