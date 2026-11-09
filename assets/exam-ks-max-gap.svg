@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1130 685" role="img" aria-labelledby="title desc">
+  <title id="title">K-S 检验理论累积分布与五样本经验阶梯及最大差距</title>
+  <desc id="desc">排序样本0.12、0.37、0.61、0.83、0.94，理论F(x)=x，经验CDF逐点上升0.2。D+在0.12跳跃后为0.08，D-在0.83跳跃前为0.23，最终D5=0.23。</desc>
+  <rect width="1130" height="685" rx="18" fill="#fafcfe"/>
+  <text x="42" y="42" font-family="Arial, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#18384f">K–S 检验：为什么要同时检查阶梯的左右两侧？</text>
+  <text x="42" y="70" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#5d7586">排序样本：0.12、0.37、0.61、0.83、0.94；每出现一个样本，经验 CDF 向上跳 0.2</text>
+  <g stroke="#e5edf2" stroke-width="1">
+    <path d="M160 160 H860 M160 236 H860 M160 312 H860 M160 388 H860 M160 464 H860 M160 540 H860"/>
+    <path d="M160 160 V540 M300 160 V540 M440 160 V540 M580 160 V540 M720 160 V540 M860 160 V540"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#607989" text-anchor="end">
+    <text x="150" y="165">1.0</text><text x="150" y="241">0.8</text><text x="150" y="317">0.6</text>
+    <text x="150" y="393">0.4</text><text x="150" y="469">0.2</text><text x="150" y="545">0.0</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#607989" text-anchor="middle">
+    <text x="160" y="566">0</text><text x="300" y="566">0.2</text><text x="440" y="566">0.4</text>
+    <text x="580" y="566">0.6</text><text x="720" y="566">0.8</text><text x="860" y="566">1</text>
+  </g>
+  <line x1="160" y1="540" x2="860" y2="160" stroke="#118578" stroke-width="3.5"/>
+  <path d="M160 540 H244 V464 H419 V388 H587 V312 H741 V236 H818 V160 H860" stroke="#326bc0" stroke-width="4" fill="none" stroke-linejoin="round"/>
+  <g fill="none" stroke="#326bc0" stroke-width="2">
+    <circle cx="244" cy="540" r="5" fill="#fafcfe"/><circle cx="419" cy="464" r="5" fill="#fafcfe"/>
+    <circle cx="587" cy="388" r="5" fill="#fafcfe"/><circle cx="741" cy="312" r="5" fill="#fafcfe"/>
+    <circle cx="818" cy="236" r="5" fill="#fafcfe"/>
+  </g>
+  <g fill="#326bc0">
+    <circle cx="244" cy="464" r="5"/><circle cx="419" cy="388" r="5"/><circle cx="587" cy="312" r="5"/><circle cx="741" cy="236" r="5"/><circle cx="818" cy="160" r="5"/>
+  </g>
+  <g stroke="#d17d3b" stroke-width="4" stroke-linecap="round">
+    <line x1="258" y1="494.4" x2="258" y2="464"/>
+    <line x1="729" y1="224.6" x2="729" y2="312"/>
+  </g>
+  <g stroke="#d17d3b" stroke-width="1.5" fill="none"><path d="M248 494.4 H268 M248 464 H268 M720 224.6 H738 M720 312 H738"/></g>
+  <g font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#b26b31">
+    <text x="273" y="472">D⁺ = 0.08</text>
+    <text x="890" y="250">D⁻ = 0.23</text>
+    <text x="890" y="274" font-size="13" font-weight="400">x = 0.83 (left)</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#526d7e" text-anchor="middle">
+    <text x="244" y="593">0.12</text><text x="419" y="593">0.37</text><text x="587" y="593">0.61</text><text x="741" y="593">0.83</text><text x="818" y="593">0.94</text>
+  </g>
+  <text x="160" y="134" font-family="Arial, Microsoft YaHei, sans-serif" fill="#456578" font-size="15">累计概率 F(x)</text>
+  <text x="872" y="566" font-family="Arial, Microsoft YaHei, sans-serif" fill="#456578" font-size="15">样本值 x</text>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#355366">
+    <line x1="195" y1="627" x2="241" y2="627" stroke="#118578" stroke-width="3.5"/><text x="253" y="632">理论 F₀(x)=x</text>
+    <line x1="461" y1="627" x2="507" y2="627" stroke="#326bc0" stroke-width="4"/><text x="520" y="632">经验 F₅(x)</text>
+    <line x1="704" y1="627" x2="750" y2="627" stroke="#d17d3b" stroke-width="4"/><text x="764" y="632">所标出的最大偏差</text>
+  </g>
+  <text x="565" y="661" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" fill="#587285" font-size="14">小圆圈为跳变前的左极限，实心圆为跳变后的值；D = max(0.08, 0.23) = 0.23</text>
+</svg>
