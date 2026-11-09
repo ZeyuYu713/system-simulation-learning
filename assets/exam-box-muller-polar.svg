@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+  <title id="title">Box-Muller 极坐标变换的输入输出与角度半径示意</title>
+  <desc id="desc">两个独立均匀数输入 U1等于0.25、U2等于e的负二分之一次方。生成角度π/2、半径1。平面标准正态取值Z1等于0、Z2等于1。极坐标角度与半径独立，Jacobian绝对值为r。</desc>
+  <defs>
+    <marker id="bmArrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#c67b35"/>
+    </marker>
+    <marker id="bmRadiusArrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#186aaf"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="650" rx="22" fill="#f8fafc"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <text x="51" y="52" font-size="27" font-weight="700" fill="#173957">Box–Muller｜用均匀的角度和可逆变的半径生成正态坐标</text>
+    <text x="51" y="86" font-size="16" fill="#60788c">设 U₁=0.25，U₂=e^(−1/2)，则 R=1，Θ=π/2，输出 (Z₁,Z₂)=(0,1)</text>
+  </g>
+  <rect x="38" y="112" width="634" height="483" rx="15" fill="#ffffff" stroke="#dce6ee"/>
+  <rect x="695" y="112" width="365" height="483" rx="15" fill="#f0f6f9" stroke="#dce6ee"/>
+  <g stroke="#dbe4eb" stroke-width="1" fill="none">
+    <circle cx="340" cy="355" r="80"/>
+    <circle cx="340" cy="355" r="160"/>
+    <circle cx="340" cy="355" r="240" stroke-dasharray="4 8"/>
+  </g>
+  <g stroke="#71879a" stroke-width="2.2" fill="none" stroke-linecap="round">
+    <path d="M94 355H625"/>
+    <path d="M340 568V149"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#6a8094">
+    <text x="627" y="360">Z₁</text><text x="352" y="145">Z₂</text>
+    <text x="340" y="378" text-anchor="middle">0</text>
+    <text x="178" y="378" text-anchor="middle">−1</text>
+    <text x="500" y="378" text-anchor="middle">1</text>
+    <text x="326" y="199" text-anchor="end">1</text>
+    <text x="324" y="521" text-anchor="end">−1</text>
+  </g>
+  <path d="M340 355V195" fill="none" stroke="#186aaf" stroke-width="5" stroke-linecap="round" marker-end="url(#bmRadiusArrow)"/>
+  <path d="M408 355A68 68 0 0 0 340 287" fill="none" stroke="#c67b35" stroke-width="3.4" marker-end="url(#bmArrow)"/>
+  <circle cx="340" cy="195" r="9.5" fill="#dd553e" stroke="#ffffff" stroke-width="3.2"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <text x="359" y="224" fill="#b74235" font-size="17" font-weight="700">(0, 1)</text>
+    <text x="352" y="268" fill="#19619a" font-size="16" font-weight="700">R = 1</text>
+    <text x="419" y="288" fill="#ae6a28" font-size="17" font-weight="700">Θ = π/2</text>
+    <text x="101" y="561" font-size="14" fill="#5a7184">点 (0,1) 是该组输入的确定输出，</text>
+    <text x="101" y="581" font-size="14" fill="#5a7184">并非正态样本只能落在单位圆上。</text>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="#26465f">
+    <text x="722" y="152" font-size="19" font-weight="700">第一步｜输入两个独立均匀数</text>
+    <text x="722" y="184" font-size="17">U₁ = 0.25</text>
+    <text x="722" y="211" font-size="17">U₂ = e^(−1/2) ≈ 0.6065</text>
+    <path d="M722 230H1033" stroke="#d3e0e9"/>
+    <text x="722" y="269" font-size="19" font-weight="700">第二步｜半径与角度</text>
+    <text x="722" y="302" font-size="17">R = √(−2 ln U₂) = 1</text>
+    <text x="722" y="332" font-size="17">Θ = 2π U₁ = π/2</text>
+    <path d="M722 351H1033" stroke="#d3e0e9"/>
+    <text x="722" y="388" font-size="19" font-weight="700">第三步｜读出平面坐标</text>
+    <text x="722" y="421" font-size="17">Z₁ = R cos Θ = 0</text>
+    <text x="722" y="451" font-size="17">Z₂ = R sin Θ = 1</text>
+    <path d="M722 473H1033" stroke="#d3e0e9"/>
+    <text x="722" y="514" font-size="16" fill="#577287">联合密度分解证明独立性：</text>
+    <text x="722" y="541" font-size="16" fill="#577287">f(R,Θ) = [r exp(−r²/2)] / (2π)</text>
+    <text x="722" y="570" font-size="15" fill="#577287">Jacobian 绝对值 = r</text>
+  </g>
+  <text x="56" y="629" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#60778a">数学前提：U₁ 与 U₂ 独立，且用于对数的 U₂ 严格大于 0。</text>
+</svg>
