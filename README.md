@@ -8,6 +8,8 @@
 
 > <strong>新增｜LCG 满周期构造与前十项专项</strong>：以课堂讨论的 `m=3900` 为模数，独立选取合法参数，逐项列出商与余数，比较两个错误参数的实际周期，并附 `m=120` 自测题。<strong>[进入 LCG 图表与计算详解](exam-review/2026-lcg-full-period-drill.md)</strong>。
 
+> <strong>新增｜随机数检验图解专项</strong>：用三张结果图分清卡方频数偏差、K–S 经验分布最大距离，以及上升游程和方向连的不同计数规则。<strong>[进入随机数检验完整详解](exam-review/2026-randomness-tests-visual.md)</strong>。
+
 > <strong>新增｜课堂式事件结果图解练习</strong>：补上此前已讲的六顾客并联 M1 优先练习，以及新的四零件 M1→运输→M2 串联练习。每题均有完整事件表、设备加工甘特图、队长和机器忙闲阶梯结果图。<strong>[并联图解](exam-review/2026-event-drill-parallel.md)</strong> · <strong>[串联图解](exam-review/2026-event-drill-tandem.md)</strong>。
 
 > <strong>八讲覆盖检查与计算专项</strong>：按第一至第八讲核对主干知识，并提供 16 道重新设计的题目、逐步计算及常见错误。<strong>[查看覆盖检查](exam-review/2026-coverage-audit.md)</strong> · <strong>[开始计算题训练](exam-review/2026-calculation-workbook.md)</strong>。
@@ -24,7 +26,7 @@
 | 专题：随机数与分布变换 | 系统基本概念、线性同余法、均匀性与独立性检验、随机变量生成 | [原有综合笔记](notes/01-random-numbers.md) |
 | 02 仿真原理（原课件第二讲） | Monte Carlo 积分与 Buffon 投针、样本量、单机五零件事件调度、重复实验、面向事件与过程 | [完整笔记](notes/02-simulation-principles.md) |
 | 专题：离散事件与排队 | 未来事件表、事件推进、FCFS、双并行服务台、M/M/1 | [原有专题笔记](notes/02-discrete-event-queue.md) |
-| 03 随机数的生成与检验（原课件第三讲） | 平方取中法、LCG及满周期、均值方差检验、卡方与 K–S 检验、游程、连贯性、扑克检验 | [完整笔记](notes/03-random-number-generation-testing.md) |
+| 03 随机数的生成与检验（原课件第三讲） | 平方取中法、LCG及满周期、均值方差检验、卡方与 K–S 检验、游程、连贯性、扑克检验 | [完整笔记](notes/03-random-number-generation-testing.md) · [图解计算专项](exam-review/2026-randomness-tests-visual.md) |
 | 专题：项目工序与 Arena | 工序先后关系、并行与汇合、资源约束、Arena 建模流程、验证 | [原有专题笔记](notes/03-arena-project-process.md) |
 | 04 随机变量的生成（原课件第四讲） | 逆变法、函数变换与 Box–Muller、近似法、卷积法、Gamma 的 GB/GS 取舍法、连续和离散经验分布抽样 | [完整笔记](notes/04-random-variate-generation.md) |
 | 专题：输出分析与实验设计 | 终止型与稳态仿真、预热期、批均值、置信区间、共同随机数、方差缩减 | [原有专题笔记](notes/04-output-analysis.md) |
