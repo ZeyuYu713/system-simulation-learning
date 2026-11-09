@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 570" role="img" aria-labelledby="title desc">
+  <title id="title">Kolmogorov-Smirnov empirical CDF and maximum vertical distance</title>
+  <desc id="desc">Sorted observations 0.08,0.16,0.50,0.65,0.92, compared with fully specified uniform distribution. D plus equals 0.24 at the jump at x 0.16, D minus equals 0.12, D five equals 0.24, below the five percent critical value 0.5633.</desc>
+  <rect width="1140" height="570" rx="22" fill="#f6f8fb"/>
+  <text x="56" y="56" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#152e45">K–S test  |  maximum vertical CDF gap</text>
+  <text x="56" y="86" font-family="Arial, sans-serif" font-size="17" fill="#617990">Ordered sample: 0.08, 0.16, 0.50, 0.65, 0.92     n = 5</text>
+  <rect x="34" y="109" width="1072" height="409" rx="16" fill="white" stroke="#dce5ef"/>
+  <g stroke="#e4edf4" stroke-width="1.4"><line x1="140" y1="135" x2="950" y2="135"/><line x1="140" y1="206" x2="950" y2="206"/><line x1="140" y1="277" x2="950" y2="277"/><line x1="140" y1="348" x2="950" y2="348"/><line x1="140" y1="419" x2="950" y2="419"/><line x1="140" y1="490" x2="950" y2="490"/>
+    <line x1="140" y1="135" x2="140" y2="490"/><line x1="302" y1="135" x2="302" y2="490"/><line x1="464" y1="135" x2="464" y2="490"/><line x1="626" y1="135" x2="626" y2="490"/><line x1="788" y1="135" x2="788" y2="490"/><line x1="950" y1="135" x2="950" y2="490"/></g>
+  <g stroke="#56718a" stroke-width="2"><line x1="140" y1="135" x2="140" y2="490"/><line x1="140" y1="490" x2="950" y2="490"/></g>
+  <g fill="#677e92" font-family="Arial, sans-serif" font-size="15"><text x="110" y="495">0</text><text x="102" y="424">0.2</text><text x="102" y="353">0.4</text><text x="102" y="282">0.6</text><text x="102" y="211">0.8</text><text x="110" y="140">1</text><text x="135" y="511">0</text><text x="294" y="511">0.2</text><text x="456" y="511">0.4</text><text x="618" y="511">0.6</text><text x="780" y="511">0.8</text><text x="943" y="511">1</text><text x="960" y="493">x</text><text x="100" y="124">CDF</text></g>
+  <path d="M140 490 L950 135" stroke="#326f9e" stroke-width="4" fill="none"/>
+  <path d="M140 490 H204.8 V419 H269.6 V348 H545 V277 H666.5 V206 H885.2 V135 H950" stroke="#15958a" stroke-width="4" fill="none" stroke-linejoin="round"/>
+  <path d="M269.6 433.2 V348" stroke="#ed8553" stroke-width="6" fill="none"/>
+  <line x1="263" y1="433.2" x2="303" y2="433.2" stroke="#ed8553" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="263" y1="348" x2="303" y2="348" stroke="#ed8553" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="269.6" cy="348" r="6" fill="#ed8553" stroke="white" stroke-width="2"/>
+  <text x="585" y="412" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#b9643d">D⁺ = 0.40 − 0.16 = 0.24</text>
+  <text x="585" y="444" font-family="Arial, sans-serif" font-size="18" fill="#aa785e">maximum at x = 0.16, after the second jump</text>
+  <path d="M269.6 439 L269.6 485" stroke="#ed8553" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="270" y="466" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#b9643d">0.16</text>
+  <line x1="724" y1="156" x2="766" y2="156" stroke="#326f9e" stroke-width="4"/>
+  <text x="774" y="162" font-family="Arial, sans-serif" font-size="17" fill="#345775">F₀(x) = x</text>
+  <line x1="724" y1="188" x2="766" y2="188" stroke="#15958a" stroke-width="4"/>
+  <text x="774" y="194" font-family="Arial, sans-serif" font-size="17" fill="#1b756e">Fₙ(x) empirical</text>
+  <text x="56" y="552" font-family="Arial, sans-serif" font-size="19" fill="#425f78">D⁺ = 0.24   |   D⁻ = 0.12   |   D₅ = 0.24   |   5% critical ≈ 0.5633   |   Do not reject H₀</text>
+</svg>
