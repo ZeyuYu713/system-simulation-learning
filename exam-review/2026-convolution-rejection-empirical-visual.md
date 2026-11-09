@@ -1,6 +1,6 @@
 # 随机变量专项练习 06｜卷积、接受—拒绝、Gamma 与经验分布（图解）
 
-[返回总目录](../README.md) · [上一题：逆变与函数变换](2026-random-variate-transforms-visual.md) · [第四讲原课件笔记](../notes/04-random-variate-generation.md) · [期末计算题集](2026-calculation-workbook.md)
+[返回总目录](../README.md) · [上一题：逆变与函数变换](2026-random-variate-transforms-visual.md) · [第四讲原课件笔记](../notes/04-random-variate-generation.md) · [下一题：输入分析图解](2026-input-analysis-visual.md) · [期末计算题集](2026-calculation-workbook.md)
 
 第四讲前半部分研究如何把均匀数直接变换为指定分布。本节接着处理三种实际困难：目标变量是若干独立随机变量之和；目标密度可算但反分布函数难算；没有可信的理论分布，只有观测数据或频数表。
 
