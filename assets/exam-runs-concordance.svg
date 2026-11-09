@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 560" role="img" aria-labelledby="title desc">
+  <title id="title">上升游程与连贯性检验的方向连示意</title>
+  <desc id="desc">第一排十个数0.41、0.68、0.33、0.35、0.71、0.74、0.61、0.55、0.62、0.36分为五个上升游程，长度2、4、1、2、1。第二排方向符号++---+++-分为四个连，长度2、3、3、1。</desc>
+  <rect width="1150" height="560" rx="18" fill="#fafcfe"/>
+  <text x="42" y="41" fill="#18384f" font-family="Arial, Microsoft YaHei, sans-serif" font-size="25" font-weight="700">游程与连贯性：先分清“按数值分组”还是“按变化方向分组”</text>
+  <text x="42" y="70" fill="#607b8b" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14">两排使用不同示例序列；色块表示连续组，色块分界就是一次“重新开始”</text>
+  <text x="55" y="121" fill="#284e67" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="700">A｜上升游程：数字本身属于哪一段（原始数值共 10 个）</text>
+  <g font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <rect x="100" y="153" width="84" height="64" rx="4" fill="#356db9"/><text x="142" y="193">.41</text>
+    <rect x="190" y="153" width="84" height="64" rx="4" fill="#356db9"/><text x="232" y="193">.68</text>
+    <rect x="280" y="153" width="84" height="64" rx="4" fill="#16877d"/><text x="322" y="193">.33</text>
+    <rect x="370" y="153" width="84" height="64" rx="4" fill="#16877d"/><text x="412" y="193">.35</text>
+    <rect x="460" y="153" width="84" height="64" rx="4" fill="#16877d"/><text x="502" y="193">.71</text>
+    <rect x="550" y="153" width="84" height="64" rx="4" fill="#16877d"/><text x="592" y="193">.74</text>
+    <rect x="640" y="153" width="84" height="64" rx="4" fill="#bd842d"/><text x="682" y="193">.61</text>
+    <rect x="730" y="153" width="84" height="64" rx="4" fill="#8260a8"/><text x="772" y="193">.55</text>
+    <rect x="820" y="153" width="84" height="64" rx="4" fill="#8260a8"/><text x="862" y="193">.62</text>
+    <rect x="910" y="153" width="84" height="64" rx="4" fill="#637d8d"/><text x="952" y="193">.36</text>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#526f80" text-anchor="middle">
+    <text x="187" y="253">第 1 段 · 2</text><text x="457" y="253">第 2 段 · 4</text>
+    <text x="681" y="253">第 3 段 · 1</text><text x="817" y="253">第 4 段 · 2</text><text x="953" y="253">第 5 段 · 1</text>
+  </g>
+  <line x1="52" y1="287" x2="1090" y2="287" stroke="#dce6eb" stroke-width="1.5"/>
+  <text x="55" y="322" fill="#284e67" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="700">B｜连贯性：比较相邻数得到方向符号（原始数值 10 个，符号 9 个）</text>
+  <g font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">
+    <rect x="100" y="348" width="91" height="60" rx="4" fill="#dce8fa"/><text x="145.5" y="387" fill="#285daa">+</text>
+    <rect x="195" y="348" width="91" height="60" rx="4" fill="#dce8fa"/><text x="240.5" y="387" fill="#285daa">+</text>
+    <rect x="290" y="348" width="91" height="60" rx="4" fill="#f7e6ca"/><text x="335.5" y="387" fill="#a97024">−</text>
+    <rect x="385" y="348" width="91" height="60" rx="4" fill="#f7e6ca"/><text x="430.5" y="387" fill="#a97024">−</text>
+    <rect x="480" y="348" width="91" height="60" rx="4" fill="#f7e6ca"/><text x="525.5" y="387" fill="#a97024">−</text>
+    <rect x="575" y="348" width="91" height="60" rx="4" fill="#d6eee8"/><text x="620.5" y="387" fill="#11796e">+</text>
+    <rect x="670" y="348" width="91" height="60" rx="4" fill="#d6eee8"/><text x="715.5" y="387" fill="#11796e">+</text>
+    <rect x="765" y="348" width="91" height="60" rx="4" fill="#d6eee8"/><text x="810.5" y="387" fill="#11796e">+</text>
+    <rect x="860" y="348" width="91" height="60" rx="4" fill="#f7e6ca"/><text x="905.5" y="387" fill="#a97024">−</text>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#526f80" text-anchor="middle">
+    <text x="193" y="445">升连 · 2</text><text x="429" y="445">降连 · 3</text><text x="714" y="445">升连 · 3</text><text x="905" y="445">降连 · 1</text>
+  </g>
+  <rect x="105" y="478" width="943" height="52" rx="10" fill="#edf4f8" stroke="#d8e4eb"/>
+  <text x="576" y="501" fill="#294e66" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" text-anchor="middle">第一排：5 个游程，长度之和 = 2+4+1+2+1 = 10</text>
+  <text x="576" y="519" fill="#294e66" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" text-anchor="middle">第二排：4 个方向连，长度之和 = 2+3+3+1 = 9 = n−1</text>
+</svg>
