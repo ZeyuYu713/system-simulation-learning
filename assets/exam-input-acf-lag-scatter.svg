@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 570" role="img" aria-labelledby="title desc">
+  <title id="title">Alternating input series: autocorrelation and lag-one scatter plot</title>
+  <desc id="desc">For sequence 2,8,2,8,2,8,2,8, lag autocorrelations one to four are minus 0.875, 0.75, minus 0.625, and 0.5. Lag-one scatter has four copies of point 2,8 and three copies of point 8,2.</desc>
+  <rect width="1140" height="570" rx="22" fill="#f6f8fb"/>
+  <text x="54" y="53" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#152a40">Serial dependence in eight observations</text>
+  <text x="54" y="83" font-family="Arial, sans-serif" font-size="17" fill="#5b7289">x = [2, 8, 2, 8, 2, 8, 2, 8]     mean = 5</text>
+  <rect x="34" y="106" width="520" height="412" rx="16" fill="#fff" stroke="#dce5ef"/>
+  <rect x="574" y="106" width="532" height="412" rx="16" fill="#fff" stroke="#dce5ef"/>
+  <text x="65" y="149" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1a3550">Sample ACF</text>
+  <text x="600" y="149" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1a3550">Lag-one scatter (xᵢ, xᵢ₊₁)</text>
+  <g stroke="#e6edf4" stroke-width="1.4">
+    <line x1="95" y1="170" x2="502" y2="170"/><line x1="95" y1="245" x2="502" y2="245"/><line x1="95" y1="320" x2="502" y2="320"/><line x1="95" y1="395" x2="502" y2="395"/><line x1="95" y1="470" x2="502" y2="470"/>
+    <line x1="664" y1="200" x2="1023" y2="200"/><line x1="664" y1="330" x2="1023" y2="330"/><line x1="664" y1="460" x2="1023" y2="460"/>
+    <line x1="735" y1="184" x2="735" y2="460"/><line x1="865" y1="184" x2="865" y2="460"/><line x1="995" y1="184" x2="995" y2="460"/>
+  </g>
+  <line x1="95" y1="170" x2="95" y2="470" stroke="#516b86" stroke-width="2"/>
+  <line x1="95" y1="320" x2="502" y2="320" stroke="#516b86" stroke-width="2"/>
+  <g fill="#60778e" font-family="Arial, sans-serif" font-size="15" text-anchor="end">
+    <text x="84" y="175">1</text><text x="84" y="250">0.5</text><text x="84" y="325">0</text><text x="84" y="400">−0.5</text><text x="84" y="475">−1</text>
+  </g>
+  <g stroke-width="7" stroke-linecap="round">
+    <line x1="151" y1="320" x2="151" y2="451.25" stroke="#db7550"/>
+    <line x1="253" y1="320" x2="253" y2="207.5" stroke="#2d8e99"/>
+    <line x1="355" y1="320" x2="355" y2="413.75" stroke="#db7550"/>
+    <line x1="457" y1="320" x2="457" y2="245" stroke="#2d8e99"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">
+    <text x="151" y="473" fill="#bd6040">−0.875</text><text x="253" y="191" fill="#16808a">0.750</text><text x="355" y="435" fill="#bd6040">−0.625</text><text x="457" y="229" fill="#16808a">0.500</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#4e6780" text-anchor="middle"><text x="151" y="501">1</text><text x="253" y="501">2</text><text x="355" y="501">3</text><text x="457" y="501">4</text></g>
+  <line x1="664" y1="184" x2="664" y2="460" stroke="#516b86" stroke-width="2"/>
+  <line x1="664" y1="460" x2="1023" y2="460" stroke="#516b86" stroke-width="2"/>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#60778e"><text x="645" y="465">2</text><text x="645" y="335">5</text><text x="645" y="205">8</text><text x="729" y="484">2</text><text x="859" y="484">5</text><text x="989" y="484">8</text><text x="1031" y="465">xᵢ</text><text x="647" y="171">xᵢ₊₁</text></g>
+  <circle cx="735" cy="200" r="10" fill="#1e91a0" stroke="#fff" stroke-width="3"/>
+  <circle cx="995" cy="460" r="10" fill="#df8050" stroke="#fff" stroke-width="3"/>
+  <path d="M748 205 L804 232" fill="none" stroke="#1e91a0" stroke-width="1.5"/>
+  <path d="M982 452 L922 414" fill="none" stroke="#df8050" stroke-width="1.5"/>
+  <text x="808" y="235" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#147d8c">(2, 8) × 4</text>
+  <text x="828" y="409" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#b5633c">(8, 2) × 3</text>
+  <text x="70" y="545" font-family="Arial, sans-serif" font-size="17" fill="#47637e">ACF numerator: −63, 54, −45, 36     denominator: 72</text>
+  <text x="683" y="545" font-family="Arial, sans-serif" font-size="17" fill="#47637e">Seven pairs; overlapping points show multiplicity</text>
+</svg>
